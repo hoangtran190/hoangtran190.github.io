@@ -1,0 +1,33 @@
+.wrap{
+	width: 1000px;
+	margin: auto;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+.menu{
+
+}
+.op{
+	border:solid 2px;
+	border-color: blue;
+	width: 16%;
+	text-align: center;
+
+}
+.op a{
+	text-decoration: none;
+	transition: 1s;
+}
+
+.op a:visited{
+	color: blue;
+}
+.op:hover a{
+	background-color: blue;
+	color: white;
+
+}
+.float{
+	float: left;
+}

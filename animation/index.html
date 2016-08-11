@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minh họa Animation</title>
+	<meta charset="utf-8">
+	<style>
+		@keyframes fadein{
+			0%{opacity: 0}
+			100%{opacity: 1}
+		}
+		p{
+			font-size: 20px;
+		}
+		@keyframes fadeout{
+			0%{opacity: 1}
+			100%{opacity: 0}
+		}
+		@keyframes me{
+			0%{opacity: 0; right: -130px;}
+			20%{opacity: 1; right: 100px;}
+			60%{opacity: 1; right: 100px;}
+			100%{opacity: 0; right:350px;}
+		}
+		#me{ 
+			position: absolute;
+			height: 30px;
+			width: 120px;
+			animation: me 10s ease-in-out infinite;
+
+		}
+	</style>
+</head>
+<body>
+	<p>Minh họa Animation Fade in</p>
+	<img src="/animation/img/minion.jpeg" style="animation: fadein linear infinite 5s ">
+	
+	<p>Minh họa Animation Fade out</p>
+	<img src="/animation/img/cat.jpg" style="animation: fadeout linear infinite 5s">
+
+	<p>Minh họa Animation Opacity</p>
+	<div id="me"><p>Created by me</p></div>
+
+	
+
+</body>
+</html>

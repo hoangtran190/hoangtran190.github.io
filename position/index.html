@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Minh họa Css:Position</title>
+	<style>
+		.wrap{
+			width: 1000px;
+
+			
+		}
+		.gallery div{
+			width: 33.33%;
+			padding-bottom: 8px;
+			
+			margin: auto;
+			float: left;
+		}
+		.gallery img{
+			width: 98%;
+
+		}
+		.menu{
+			
+			font-size: 24px;
+			text-align: center;
+			border-bottom: solid 2px white;
+			padding-bottom: 5px;
+			margin-bottom: 50px;
+		}
+		.menu a{
+			text-decoration: none;
+		}
+		.menu a:visited{
+			color:blue;
+		}
+		@keyframes rainbow{
+			0% {color: #ff0000;}
+			10% {color: #ff8000;}
+			20% {color: #ffff00;}
+			30% {color: #80ff00;}
+			40% {color: #00ff00;}
+			50% {color: #00ff80;}
+			60% {color: #00ffff;}
+			70% {color: #0080ff;}
+			80% {color: #0000ff;}
+			90% {color: #8000ff;}
+			100% {color: #ff0080;}
+		}
+		.menu a{ 
+			animation: rainbow 6s linear infinite;
+			
+
+		}
+		.menu> a:first-child{
+			
+			position: relative;
+			top: -37px;
+    		left: -200px;
+			
+
+		}
+		.menu> a:first-child> img{
+			width: 100px;
+			border: 1px solid black;
+			border-radius: 50%;
+			background-color:  	 white;
+		}
+		
+		
+		.icon{
+			
+			padding: 5px;
+		}
+		.top img{
+			width: 60px;
+			border-radius: 50%;
+		}
+		.top {
+			position: fixed;
+			right: 30px;
+			bottom: 30px;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="banner">
+			<img src="img/banner.jpg" alt="No image found" title="Dark Sky" style=" width: 100%;">
+		</div>
+		<div class="menu">
+			<a href="index.html"><img src="img/icon.png" alt=""></a>
+			<a href="index.html">Image Gallery</a>
+			
+			
+
+		</div>
+		<div class="gallery">
+			<div><img src="img/cake.jpg" alt="" title="Xmas cake"></div>
+			<div><img src="img/cookie.jpg" alt="" title="Cookie"></div>
+			<div><img src="img/gift.jpg" alt="" title="Xmas Gift"></div>
+			<div><img src="img/letters.jpg" alt="" title="Merry Xmas in snow"></div>
+			<div><img src="img/minion.jpg" alt="" title="Minion in Xmas costume"></div>
+			<div><img src="img/ribbon.jpg" alt="" title="Xmas 2016"></div>
+			<div><img src="img/snowman.jpg" alt="" title="Snowman"></div>
+			<div><img src="img/tree.jpg" alt="" title="Xmas tree with decorations"></div>
+			<div><img src="img/xmas.jpg" alt="" title="Xmas"></div>
+		</div>
+		<div class="top"><a href="index.html"> <img src="img/2top.png" alt=""></a></div>
+	</div>
+</body>
+</html>

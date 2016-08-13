@@ -1,3 +1,19 @@
+
+body{
+	background-color: #fff7e6;
+	margin: auto;
+	padding: 0;
+}
+* a:visited{
+	color: blue;
+}
+* a:link{
+	color: blue;
+}
+* a{
+	text-decoration: none;
+
+}
 .wrap{
 	width: 1000px;
 	margin: auto;
@@ -5,12 +21,18 @@
 	box-sizing: border-box;
 
 }
-.menu{
-
+.banner img{
+	width: 984px;
+	
+	
+}
+.banner{
+	background-color: #fff7e6;
+	padding-top: 110px;
 }
 .op{
 	border:solid 2px;
-	border-color: blue;
+	border-color: #ffaa00;
 	width: 16%;
 	text-align: center;
 
@@ -24,10 +46,136 @@
 	color: blue;
 }
 .op:hover a{
-	background-color: blue;
+	background-color: #ffaa00;
 	color: white;
 
 }
 .float{
 	float: left;
 }
+#logo:link {
+	color: blue;
+}
+#logo:visited {
+	color: blue;
+}
+#logo{
+	font-size:26px;
+
+}
+.qc{
+	padding-top: 130px;
+
+}
+.mon{
+	width: 45%;
+	padding-left: 5px;
+	font-size: 26px;
+	font-style: italic;
+	text-align: justify;
+	
+	float: left;
+
+}
+.mon span{
+	text-decoration: underline;
+}
+.qc img{
+	
+	padding-left: 10px;
+	border-radius: 10%;
+	float: left;
+	width: 100%;
+
+}
+.pic{
+	width: 40%;
+
+
+}
+.lienhe{
+	padding-top: 130px;
+	width: 60%;
+	text-align: justify;
+}
+* h3{
+	font-size: 30px;
+	text-decoration: underline;
+}
+.lienhe p{
+	font-size: 20px;
+}
+
+.lienhe a{
+	padding-left: 20px;
+	font-size: 22px;
+}
+.dangtuyen{
+	font-size: 25px;
+}
+
+.special{
+	font-size: 28px;
+	animation: bli 4s linear infinite;
+	text-align: center;
+}
+@keyframes bli{
+	0%{color:red;}
+	70%{color: blue;}
+	100%{color: red}
+}
+.km p{
+	font-size: 20px;
+	text-align: center;
+}
+
+.km{
+	padding-top: 100px;
+}
+.thucdon div{
+	width: 32%;
+	float: left;
+	height: 300px;
+	text-align: center;
+}
+.thucdon{
+	padding-top: 175px;
+	
+}
+
+.thucdon img{
+	width: 290px;
+	height: 200px;
+}
+@keyframes fade{
+	0%{opacity: 1}
+	
+	70%{opacity: 0.5; border:20%}
+	100%{opacity: 1}
+}
+.thucdon img:hover{
+	animation: fade 4s linear infinite;
+	transition: 1s;
+}
+
+.gioithieu img{
+	width: 70%;
+}
+.gioithieu p{
+	font-size: 20px;
+}
+
+.index{
+	font-size: 25px;
+	text-align: center;
+}
+.mon span{
+	color: red;
+	
+}
+
+
+
+
+
+

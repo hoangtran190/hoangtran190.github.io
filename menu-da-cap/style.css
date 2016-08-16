@@ -173,8 +173,23 @@ body{
 	color: red;
 	
 }
-
-
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropcontent{
+	display: none;
+	position: absolute;
+	background-color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	min-width: 164px;
+}
+.dropcontent a: hover{
+	background-color: #ffaa00;
+}
+.dropdown:hover .dropcontent{
+	display: block;
+}
 
 
 

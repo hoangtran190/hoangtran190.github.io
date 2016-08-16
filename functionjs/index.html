@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Demo function</title>
+
+</head>
+<body>
+	<script>
+		function binhphuong(a){
+			alert(a * a);
+		}
+		function binhphuong2(a, b, c){
+			alert(binhphuong(3 * a + 2 * b - c));
+		}
+		function cat(str){
+			alert((str.slice(0, 11) + "..."));
+		}
+		function viethoa(str){
+			alert((str.charAt(0).toUpperCase() + str.slice(1).toLowerCase()));
+		}
+		function min(arr){
+			alert(arr.sort(function(a, b){return a - b}));
+		}
+		
+		function sortname(arr){
+			alert("Kết quả: " + arr.sort());
+		}
+		var teacher, student, parent , aboutMe;
+		teacher = {
+			firstName: "Hoa",
+			lastName: 'Dung',
+			age: 30,
+			say: function aboutMe(){
+			return "Xin chào, tên tôi là " + this.lastName + " " + this. firstName + ". Năm nay tôi " +
+				this.age
+			}		
+		};
+		student = {
+			firstName: "Dũng",
+			lastName: 'Trần',
+			age: 15,
+			say: function aboutMe(){
+			return "Xin chào, tên tôi là " + this.lastName + " " + this. firstName + ". Năm nay tôi " +
+				this.age
+			}	
+		};
+		parent = {
+			firstName: "Hoàng",
+			lastName: 'Nguyễn',
+			age: 29,
+			say: function aboutMe(){
+			return "Xin chào, tên tôi là " + this.lastName + " " + this. firstName + ". Năm nay tôi " +
+				this.age
+			}	
+		};
+		
+	</script>
+	
+</body>
+</html>

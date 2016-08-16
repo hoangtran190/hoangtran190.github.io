@@ -174,7 +174,7 @@ body{
 	
 }
 .dropdown{
-	position: relative;
+	
 	display: inline-block;
 }
 .dropcontent{
@@ -182,7 +182,7 @@ body{
 	position: absolute;
 	background-color: white;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	min-width: 164px;
+	min-width: 100%;
 }
 .dropcontent a: hover{
 	background-color: #ffaa00;

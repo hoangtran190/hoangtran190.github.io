@@ -180,15 +180,23 @@ body{
 .dropcontent{
 	display: none;
 	position: absolute;
-	background-color: white;
+	background-color: #fff7e6;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	min-width: 100%;
+	min-width: 19%;
 }
 .dropcontent a: hover{
 	background-color: #ffaa00;
 }
 .dropdown:hover .dropcontent{
 	display: block;
+}
+.dropcontenteffect a{
+	color: blue;
+	background-color: #fff7e6;
+}
+.dropcontenteffect:hover {
+	border: solid 2px #ffaa00;
+	background-color: white;
 }
 
 

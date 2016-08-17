@@ -70,25 +70,24 @@ body{
 	font-size: 30px;
 }
 
-.mcq{
-	position: relative;
-	margin-top: 50px;
-}
-mcq button{
+
+button{
 	width: 180px;
 	height: 50px;
 	font-size: 16px;
+	background-color: #ffb3ff;
+	margin-top: 20px;
+}
+input{
 	
+	font-size: 16px;
 	background-color: #ffb3ff;
 	margin-bottom: 20px;
+
 }
-
-mcq button:hover {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	background-color: #ff00ff;
+.inputdiv{
+	padding-top: 30px;
 }
-
-
 
 
 

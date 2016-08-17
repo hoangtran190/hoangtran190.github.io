@@ -1,9 +1,8 @@
 var correctAnswer = 0;
+document.getElementById('')
 function correctAnswer(){
-	alert("Correct!")
-	var answer=0;
-	return answer +=1;
-	result();
+	console.log(this)	
+
 }
 function reset(){
 	return answer = 0;

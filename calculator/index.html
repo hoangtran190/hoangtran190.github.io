@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator Online</title>
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+	<h1>Welcome to free Calculator online</h1>
+	<div class="wrap">
+		<div><input type="text" id = "display" disabled> </div> <br>    
+		<div class="line1">
+			<button class="button" id="c" onclick="addToScreen('c')">C</button>
+			<button class="button" id="backspace" onclick="backspace()"><--</button>
+			<button class="button" id="equal" onclick="answer()">=</button>
+		</div>	
+		<br>
+		<div class="line2">
+			<button class="numberButton" id="button1" onclick="addToScreen('1')">1</button>
+			<button class="numberButton" id="button2" onclick="addToScreen('2')">2</button>
+			<button class="numberButton" id="button3" onclick="addToScreen('3')">3</button>
+			<button class="numberButton" id="button4" onclick="addToScreen('4')">4</button>
+			<button class="numberButton" id="button5" onclick="addToScreen('5')">5</button>
+			<button class="numberButton" id="button6" onclick="addToScreen('6')">6</button>
+			<button class="numberButton" id="button7" onclick="addToScreen('7')">7</button>
+			<button class="numberButton" id="button8" onclick="addToScreen('8')">8</button>
+			<button class="numberButton" id="button9" onclick="addToScreen('9')">9</button>
+			<button class="numberButton" id="button0" onclick="addToScreen('0')" style="width:50%">0</button>
+			<button class="numberButton" id="point" onclick="addToScreen('.')">.</button>
+		</div>
+		<br>
+		<div class="line3">
+			<button class="operaterButton" id="add" onclick="addToScreen('+')">+</button>
+			<button class="operaterButton" id="subtract" onclick="addToScreen('-')">-</button>
+			<button class="operaterButton" id="multiple" onclick="addToScreen('*')">*</button>
+			<button class="operaterButton" id="divide" onclick="addToScreen('/')">/</button>
+			<button class="operaterButton" id="module" onclick="addToScreen('%')">%</button>
+			<button class="operaterButton" id="square" onclick="square()">x<sup>2</sup></button>
+			<button class="operaterButton" id="sqroot" onclick="sqr()"> &radic;<span style="text-decoration:overline;">x</span></button>
+		</div>
+	</div>
+	<script src= "myjs.js"></script>
+</body>
+</html>

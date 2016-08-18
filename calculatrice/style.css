@@ -1,0 +1,33 @@
+#display {
+	border: solid black 2px;
+	width: 130px;
+	text-align: right;
+}
+body {
+	text-align: center;
+}
+.wrap {
+	border: solid black 5px;
+    width: 200px;
+    height: 280px;
+    padding-top: 50px;
+    background-color: #b3ffb3;
+    text-align: center;
+    border-radius: 10%;
+    margin: auto;
+}
+.line1 button{
+	width: 22%;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	background-color:  #ffffcc;
+}
+.line2 button{
+	width: 24%;
+    height: 21px;
+
+}
+.line3 button{
+	width: 24%;
+    height: 21px;
+}

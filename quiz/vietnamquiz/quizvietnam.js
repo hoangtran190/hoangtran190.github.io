@@ -13,7 +13,7 @@ function _(x){
 function renderQuestion(){
 	if(pos >= questions.length){
 		if(correct === 6){
-			window.open("http://www.w3schools.com", "_self");
+			window.open("https://hoangtran190.github.io/quiz/vietnamquiz/congratulations.html", "_self");
 		} else{
 			test.innerHTML = "<h3> Bạn có " + correct + " câu trả lời đúng<br></h3>";
 			_("test_status").innerHTML = "Hoàn thành quiz"; 

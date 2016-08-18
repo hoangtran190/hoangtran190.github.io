@@ -1,14 +1,6 @@
 var display = document.getElementById('display');
 
 function addToScreen(str){
-	// if(str === 'backspace'){
-	// 	if(display.value.length === 0){
-	// 		display.value = ' ';
-	// 	}
-	// 	else display.value = display.value.slice(0, display.value.length -1);
-	// }
-
-
 	display.value +=str;
 	if(str === 'c'){
 		display.value = ' ';
@@ -38,3 +30,9 @@ function sqr(){
 	x = Math.sqrt(x);
 	display.value = x;
 }
+
+function black(){
+	$("h1").style = "color: yellow;"
+}
+
+

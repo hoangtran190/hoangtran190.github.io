@@ -1,11 +1,11 @@
 var pos = 0, test, test_status, question, choice, choices, chA, chB, chC, chD, correct = 0;
 var questions = [
-	["Je m'appelle", "Au voir", "Bonjour", "Moi, Anna", "C"],
-	["Comment vas tu?", "Je vais bien, merci", "Je suis occupé", "A lundi", "A"],
-	["Quel temps fait-il?", "Je voudrais sortir", "Il fait beau", "Voudrais vous venir avec moi?", "B" ],
-	["Comment est-il, le téa?", "Il est horrible", "Il est très interesant", "Il est sur", "A"],
-	["Il y a pas de person dans ta classe?", "Non, il y a 1", "Bien sur! Pas de problème", "Je veux aller à la classe", "A"],
-	["Combien de chats as-tu?", "J'ai 2 pugs", "J'ai 5 chiots", "J'ai 3 minous", "C"],
+	["Tôi tên là Hoàng", "Hẹn gặp lại", "Chào buổi sáng", "Còn tôi là Tùng", "C"],
+	["Bạn có khỏe không?", "Cảm ơn, tôi khỏe", "Tôi bận lắm", "Thứ 2 gặp lại", "A"],
+	["Thời tiết hôm nay thế nào", "Tôi muốn đi chơi", "Lạnh lắm", "Muốn đến trường cùng tôi không", "B" ],
+	["Trà ngon không?", "Không ngon lắm", "Không hay lắm", "Không đẹp lắm", "A"],
+	["Lớp bạn có ai không?", "Giờ này thì không", "Tất nhiên rồi", "Tôi muốn đến lớp", "A"],
+	["Bạn có bao nhiều con mèo", "Tôi có 2 con chihoahoa", "Tôi có 5 con cún", "Tôi có 3 con mèo nhỏ", "C"],
 ]
 function _(x){
 	return document.getElementById(x);
@@ -15,15 +15,15 @@ function renderQuestion(){
 		if(correct === 6){
 			window.open("http://www.w3schools.com", "_self");
 		} else{
-			test.innerHTML = "<h3> Vous avez " + correct + " réponses correctes<br></h3>";
-			_("test_status").innerHTML = "Quiz completé"; 
+			test.innerHTML = "<h3> Bạn có " + correct + " câu trả lời đúng<br></h3>";
+			_("test_status").innerHTML = "Hoàn thành quiz"; 
 			pos = 0;
 			correct = 0;
 			return false;
 		}
 	}
 	test = _("test");
-	_("test_status").innerHTML = "Questionaire Francaise numéro " + (pos + 1);
+	_("test_status").innerHTML = "Quiz tiếng việt số " + (pos + 1);
 	question = questions[pos][0];
 	chA = questions[pos][1];
 	chB = questions[pos][2];

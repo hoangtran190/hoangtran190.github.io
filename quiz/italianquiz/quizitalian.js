@@ -1,11 +1,11 @@
 var pos = 0, test, test_status, question, choice, choices, chA, chB, chC, chD, correct = 0;
 var questions = [
-	["Je m'appelle", "Au voir", "Bonjour", "Moi, Anna", "C"],
-	["Comment vas tu?", "Je vais bien, merci", "Je suis occupé", "A lundi", "A"],
-	["Quel temps fait-il?", "Je voudrais sortir", "Il fait beau", "Voudrais vous venir avec moi?", "B" ],
-	["Comment est-il, le téa?", "Il est horrible", "Il est très interesant", "Il est sur", "A"],
-	["Il y a pas de person dans ta classe?", "Non, il y a 1", "Bien sur! Pas de problème", "Je veux aller à la classe", "A"],
-	["Combien de chats as-tu?", "J'ai 2 pugs", "J'ai 5 chiots", "J'ai 3 minous", "C"],
+	["Mi chiamo James", "Ci vediamo", "Buongiorno", "Sono Anna", "C"],
+	["Come stai?", "Bene, gracie", "Sono occupato", "A lunedi", "A"],
+	["Com'è il tempo?", "Vorrei sortire", "Fa molto freddo", "Vorrei venire con te", "B" ],
+	["Com'è il téa?", "È orribile", "È molto interesante", "È certo", "A"],
+	["Quanti studenti ci sono della tua classe ", "Ci sono 10", "Certo! Non c'è problema", "Voglio venire alla lezione", "A"],
+	["Quanti gatti hai", "Ho 2 carlini", "Ho 5 cuccioli", "Ho 3 mici", "C"],
 ]
 function _(x){
 	return document.getElementById(x);
@@ -15,15 +15,15 @@ function renderQuestion(){
 		if(correct === 6){
 			window.open("http://www.w3schools.com", "_self");
 		} else{
-			test.innerHTML = "<h3> Vous avez " + correct + " réponses correctes<br></h3>";
-			_("test_status").innerHTML = "Quiz completé"; 
+			test.innerHTML = "<h3> Hai " + correct + " risposte corrette<br></h3>";
+			_("test_status").innerHTML = "Quiz completo"; 
 			pos = 0;
 			correct = 0;
 			return false;
 		}
 	}
 	test = _("test");
-	_("test_status").innerHTML = "Questionaire Francaise numéro " + (pos + 1);
+	_("test_status").innerHTML = "Quiz italiano numero " + (pos + 1);
 	question = questions[pos][0];
 	chA = questions[pos][1];
 	chB = questions[pos][2];

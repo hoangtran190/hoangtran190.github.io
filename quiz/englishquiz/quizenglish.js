@@ -13,7 +13,7 @@ function _(x){
 function renderQuestion(){
 	if(pos >= questions.length){
 		if(correct === 6){
-			window.open("https://hoangtran190.github.io/quiz/frenchquiz/congratulations.html", "_self");
+			window.open("https://hoangtran190.github.io/quiz/englishquiz/congratulations.html", "_self");
 		} else{
 			test.innerHTML = "<h3> You got " + correct + " correct answer<br></h3>";
 			_("test_status").innerHTML = "Test Complete"; 

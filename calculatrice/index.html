@@ -8,14 +8,14 @@
 </head>
 <body>
 	<h1>Welcome to free Calculator online</h1>
-	<button class="changetheme" onclick="origin()">Origin theme</button>
-	<button class="changetheme" onclick="black()">Black theme</button>
+	<button id="origin">Origin theme</button>
+	<button id="black">Black theme</button>
 	<div class="wrap">
 		<div><input type="text" id = "display" disabled> </div> <br>    
-		<div class="line1">
-			<button class="button" id="c" onclick="addToScreen('c')">C</button>
-			<button class="button" id="backspace" onclick="backspace()"><--</button>
-			<button class="button" id="equal" onclick="answer()">=</button>
+		<div>
+			<button class="button line1" id="c" onclick="addToScreen('c')">C</button>
+			<button class="button line1" id="backspace" onclick="backspace()"><--</button>
+			<button class="button line1" id="equal" onclick="answer()">=</button>
 		</div>	
 		<br>
 		<div class="line2">

@@ -35,4 +35,16 @@ function black(){
 	$("h1").style = "color: yellow;"
 }
 
+$('#black').click(function(){
+	$('body').css('background-color', 'black');
+	$('h1').css('color','white');
+	$('.wrap').css('border','solid white 5px');
+	
+})
+$('#origin').click(function(){
+	$('body').css('background-color', 'white');
+	$('.wrap').css('border','solid black 5px');
+	$('h1').css('color','black');
+	
+})
 

@@ -31,20 +31,32 @@ function sqr(){
 	display.value = x;
 }
 
-function black(){
-	$("h1").style = "color: yellow;"
-}
+
 
 $('#black').click(function(){
 	$('body').css('background-color', 'black');
 	$('h1').css('color','white');
 	$('.wrap').css('border','solid white 5px');
-	
+	$('button').css('color','white');
+	$('button').css('background-color','grey');
+	$('button').css('border-radius','5px');
+	$('.wrap').css('background-color',' #ffff00');
 })
 $('#origin').click(function(){
 	$('body').css('background-color', 'white');
 	$('.wrap').css('border','solid black 5px');
 	$('h1').css('color','black');
-	
+	$('button').css('color','black');
+	$('button').css('background-color','white');
+	$('button').css('border-radius','5px');
+	$('.wrap').css('background-color','grey');
 })
-
+$('#magenta').click(function(){
+	$('body').css('background-color', '#ffb3ff');
+	$('.wrap').css('border','solid black 5px');
+	$('h1').css('color','black');
+	$('button').css('color','black');
+	$('button').css('background-color',' #ffdd99');
+	$('button').css('border-radius','5px');
+	$('.wrap').css('background-color','#b3ffb3');
+})

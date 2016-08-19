@@ -3,18 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Game</title>
-	<link rel="stylesheet" href="style.css">
+	<audio controls autoplay  loop="loop">
+		<source src="/memorycard/bgmusic.mp3" type="audio/mpeg" id="bgmusic">			
+	</audio>
+
+	<link rel="stylesheet" href="/memorycard/style.css">
+
 </head>
 <body>
+	<div class="header"></div>
 	<div class="wrap">
-		<div class="board">
-		</div>
-	</div>
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
-	<script src = "myjs.js"></script>
-	<script> newBoard();</script>
+		<div class="board"></div>
+	</div><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src = "/memorycard/myjs.js"></script>
+	<script>askUser()</script>
 
 </body>
 </html>

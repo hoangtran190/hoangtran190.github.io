@@ -1,18 +1,58 @@
-.wrap{
-	
-	
+@font-face {
+    font-family: myFirstFont;
+    src: url(font.woff);
 }
+
+body{
+	background:  url("img/background.jpg")
+
+}
+.header{
+	text-align: center;
+	color: #ff4d94;
+	font-family: myFirstFont;
+	font-size: 30px;
+
+}
+
 .board{
-	opacity: 0.6;
-	
-	/*background-color: grey;*/
 	width: 980px;
 	height: 695px;
 	margin: auto;
-	margin-top:100px;
+	text-align: center;
+	font-family: myFirstFont;
+}
+p{
+	margin-top: 100px;
+	font-size: 50px;	
+	animation: changecolor 5s linear infinite; 
+}
+
+@keyframes changecolor{
+	0% {color:  #1aff1a} 
+	30% {color: #ff4d94}
+	100% {color:  #1aff1a}
 	
 }
-img{
+.board button{
+	padding: 10px;
+	margin: 30px;
+	border-radius: 10%;
+	background-color: #fff2e6;
+	font-size: 22px;
+	width: 110px;
+	font-family: myFirstFont;
+}
+@keyframes bounce { 
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-20px);} 
+    60% {transform: translateY(-10px);} 
+} 
+button:hover {
+	animation: bounce 1s linear infinite;
+
+}
+.card img{
 	height:200px;
 	
 }
@@ -21,25 +61,80 @@ img{
 	height: 200px;
 	float: left;
 	margin: 16px;
-	/*transition-delay: 5s;*/
 }
 .card .front, .card .back{
-	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	        backface-visibility: hidden;
 	transition: all 0.5s linear 0s;
 }
 
-.card>.front{
+.card>.back{
 	position: absolute;
 	transform: rotateY(180deg);
 }
 
-/*back: 0deg*/
-
-
-/*
-.card .back .flipped{
-	transform: rotateY(180deg);
+.lock{
+	width: 90px;
+	height: 200px;
+	float: left;
+	margin: 16px;
+	pointer-events: none;
+	transition: 0.2s linear;
+	opacity: 0;
 }
-.card .front .fripped{
-	transform: rotateY(0deg);
-}*/
+
+.meter { 
+	height: 20px;  /* Can be anything */
+	position: relative;
+	background: #555;
+	border-radius: 25px;
+	padding: 10px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+.meter > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(43,194,83);
+  background-image: linear-gradient(
+    center bottom,
+    rgb(43,194,83) 37%,
+    rgb(84,240,84) 69%
+  );
+  box-shadow: 
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
+.meter > span:after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background-image: linear-gradient(
+    -45deg, 
+    rgba(255, 255, 255, .2) 25%, 
+    transparent 25%, 
+    transparent 50%, 
+    rgba(255, 255, 255, .2) 50%, 
+    rgba(255, 255, 255, .2) 75%, 
+    transparent 75%, 
+    transparent
+  );
+  z-index: 1;
+  background-size: 50px 50px;
+  animation: move 2s linear infinite;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  overflow: hidden;
+}
+
+
+
+
+

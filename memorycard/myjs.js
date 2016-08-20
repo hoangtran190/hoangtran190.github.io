@@ -67,6 +67,7 @@ function progressBar(timer){
 
 
 function newBoard(){
+	count = 0;
 	cards = shuffle(card_base).slice(0, cardNumber);
 	cards = shuffle(cards.concat(cards));
 	var output = '';
@@ -127,12 +128,12 @@ function victory(){
 	$(".board").html('<p>YOU WIN</p><img src="/memorycard/img/win.gif"> <br> <button type="button"' + 
 		' onclick="askUser()">PLAY AGAIN?</button></div><audio autoplay><source src="/memorycard/win.mp3" '+
 		' type="audio/mpeg"></audio>');	
-	count = 0;
+	
 }
 
 function defeat(){
 	$('.header').html('');
 	$(".board").html('<p>YOU LOOSE</p><img src="/memorycard/img/cry.gif"> <br>'+
 		'<button type="button" onclick="askUser()">PLAY AGAIN?</button>');
-	count = 0;
+	
 }

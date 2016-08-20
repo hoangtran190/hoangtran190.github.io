@@ -55,7 +55,7 @@ function progressBar(timer){
     var width = 100;
     var id = setInterval(frame, timer);
     function frame() {
-        if (width <= 0) {
+        if (count < cards.length && width == 0) {
             clearInterval(id);
             defeat();
         } else {

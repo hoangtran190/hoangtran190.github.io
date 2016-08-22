@@ -1,8 +1,12 @@
+body{
+	background-color: #e6ffff;
+}
 .menu a{ 
 	text-decoration: none;
 	margin: 10px;
 
 }
+
 .menu{
 	margin-top: 10px;
 	text-align: center;
@@ -25,11 +29,8 @@
 	width: 32.8%;
 	
 }
-#image img:hover {
-	border: 1px solid;
-	border-color: white;
-	
-}
+
+
 .box{
 	border: solid 3px;
 	margin:auto;

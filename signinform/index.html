@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Register form</title>
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+
+	<div class="registerForm">
+	<form action="success.html" id="formRegister">
+		<h3>Create An Account</h3>
+		<input type="text" id="name" placeholder="Name" name="name" class="fullSize"> <span class="error"></span><br>
+		<input type="text" id="email" placeholder="E-mail Address" class="fullSize" name="email"> <span class="error"></span> <br>
+		<input type="password" id="password" placeholder="Password" class="fullSize" name="password"> <span class="error"></span><br>
+		<input type="password" id="confirm" placeholder="Confirm Password" class="fullSize" name="confirm"> <span class="error"></span><br><br>
+		<label for="dob">Date of Birth:</label>
+		<input type="text" id="dob" class="fullSize" name="dob" placeholder="Birthday"> <span class="error"></span><br>
+		<laber for="gender"> Gender:</laber>
+		<select name="gender" id="gender">
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+		</select><br>
+		<input type="text" id="phone" placeholder="Phone Number" class="fullSize" name="phone"> <span class="error"></span> <br>
+		<input type="submit" value="Register" id="submit" class="fullSize" name="submit">
+		
+	</form>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>	
+	<script src = "myjs.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+body{
+	background-color:  #e6f9ff;
+} 
+.col-md-4 img{
+	padding-bottom: 20px;
+}
+.nav {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.box{
+	padding: 5px;
+	border: solid 2px ;
+}

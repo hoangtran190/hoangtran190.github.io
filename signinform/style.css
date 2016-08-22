@@ -86,4 +86,9 @@ select{
 p{
   text-align: center;
 }
+.content{
+  margin-top: 50px;
+  margin-left: 100px;
+  line-height: 50px;
+}
 

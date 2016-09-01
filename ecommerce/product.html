@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home page</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="animate.css">
+</head>
+
+<body>
+
+	<!-- header -->
+	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html" style="font-family: 'logo'; font-size: 26px; padding-top:19px;"><span style="color:#ff4d4d">DPVN</span></a>
+				<!-- sanpham mobile-->
+				<a class="navbar-brand visible-xs" href="product.html"><span class="glyphicon glyphicon-gift"> </span></a>	
+				<!-- search mobile -->
+				<span class="glyphicon glyphicon-search navbar-brand visible-xs nav-mobile dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></span>
+				<ul class="dropdown-menu" style="width:100%">
+					<li>
+						<form style="padding:0 10px;">		       
+							<input type="text" class="form-control" placeholder="Tìm kiếm" style="padding-bottom:5px;">
+							<button type="submit" class="btn btn-default">Nhập</button>	    
+						</form>
+					</li>
+				</ul>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav" id="hoverbox">					
+					<!-- san pham normal -->
+					
+					<li class="active"><a class="hidden-xs" href="product.html">Sản phẩm</a></li>
+					
+					<li><a href="share.html">Chia sẻ</a></li>
+					<li><a href="contact.html">Liên hệ</a></li>
+				</ul>
+
+
+				<ul class="nav navbar-nav navbar-right">
+					<!-- search -->
+					<li class="hidden-xs">
+						<span class="glyphicon glyphicon-search navbar-brand hidden-xs nav-mobile dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></span>
+						<ul class="dropdown-menu" style="width:300px;">
+							<li>
+								<form style="padding:0 10px;">		       
+									<input type="text" class="form-control" placeholder="Tìm kiếm" style="padding-bottom:5px;">
+
+									<button type="submit" class="btn btn-default" > Nhập</button>	    
+								</form>
+							</li>            
+						</ul>
+					</li>
+
+					
+
+				</li>
+
+				<!-- dang nhap -->
+				<li class="dropdown hidden-xs">
+					<a href="signin.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Đăng nhập <span class="caret"></span></a>
+					<ul class="dropdown-menu ">
+						<form style="width:350px; padding: 0 5px;">
+							<div class="form-group">
+								<input type="text" class="form-control" id="userid" placeholder="Tài khoản">
+							</div>
+							<div class="form-group">
+								<input type="password" class="form-control" id="userpassword" placeholder="Password">
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox"> Nhớ tài khoản
+								</label>
+							</div>
+							<button type="submit" class="btn btn-primary" style="width:100%">Đăng nhập</button>
+							<div class="form-group">
+
+								<p class="help-block">Chưa có tài khoản?</p>
+							</div>
+							<a href="signin.html" class="btn btn-info" style="width:100%">Tạo tài khoản</a>
+						</form>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+
+
+
+<!-- footer -->
+<div class="container-fluid" style="color:white; background-color:black">
+	<div class="container" style="color:white; background-color:black; padding-top: 20px;">
+		<!-- footer normal -->
+		<div class="row hidden-xs">
+			<div class="col-sm-2">
+				<a style="color:white" href="#">Về Cửa hàng</a> <br>
+				<a style="color:white" href="#">Ý kiến khách hàng</a> <br>
+
+			</div>
+			<div class="col-sm-2">
+				<a style="color:white" href="#">Chương trình Liên hệ</a> <br>
+				<a style="color:white" href="#">Chương trình hợp tác</a> <br>
+				<a style="color:white" href="#">Chính sách cho doanh nghiệp</a> <br>
+			</div>
+			<div class="col-sm-2">
+				<a style="color:white" href="#">Các điều khoản</a> <br>
+				<a style="color:white" href="#">Điều khoản sử dụng</a> <br>
+				<a style="color:white" href="#">Điều khoản ship</a> <br>
+				<a style="color:white" href="#">Chính sách đổi hàng</a> <br>
+			</div>
+			<div class="col-sm-3">
+				Nhận thông tin cập nhật
+				<input type="text" id="email_newsletter" placeholder="Nhập email"> <br> <br>
+				<img src="img/icon1.png" style="width:50px;">
+				<img src="img/icon2.png" style="width:50px;">
+				<img src="img/icon3.png" style="width:50px;">
+				
+				
+			</div>
+			<div class="col-sm-3">
+				Thanh toán qua <br>
+				<img src="img/bank1.jpg" style="width:50px;">
+				<img src="img/bank2.jpg" style="width:50px;">
+				<img src="img/bank3.jpg" style="width:50px;">
+				<img src="img/bank4.jpg" style="width:50px;">
+				<img src="img/bank5.jpg" style="width:50px;">
+				<img src="img/bank6.jpg" style="width:50px;">
+
+
+			</div>
+		</div>
+		<div class="row">
+
+		</div>
+	</div>
+</div>
+<!-- copyright -->
+<div class="container-fluid" style="background-color:black">
+	<div class="container" style="background-color:black; color: white; padding-top: 10px; padding-bottom: 10px;">
+		Copyright © 2015 PhượtVN. Designed By HoangTran
+	</div>
+</div>
+
+
+
+							
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript">
+	$(function(){
+		var animateboxwhenhover = $('#hoverbox li a');
+		animateboxwhenhover.mouseover(function(){
+			$(this).css('border-bottom', 'solid 1px #ff4d4d');
+			$(this).css('color', '#ff4d4d');
+		});
+		animateboxwhenhover.mouseleave(function(){
+			$(this).css('border-bottom', '');
+			$(this).css('color', '');
+		});
+	})
+
+</script>
+</body>
+</html>

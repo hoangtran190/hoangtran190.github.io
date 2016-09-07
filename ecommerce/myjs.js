@@ -61,52 +61,9 @@ $('#formRegister').on('submit',function () {
       }   
       return isValid;
     });
-var username, userpassword, userphone, usergender, userphone, useremail;
 
-function showUser(){
-  var uri = decodeURIComponent(document.URL);
-  var index = uri.indexOf("?");
- 
-  uri = uri.slice(index+1);
-  index = uri.indexOf("&");
-  username = uri.slice(5, index);
-
-  uri = uri.slice(index+1);
-  index = uri.indexOf("&");
-  useremail = uri.slice(6, index);
-
-  uri = uri.slice(index+1);
-  index = uri.indexOf("&");
-  userpassword = uri.slice(9, index);
-
-  uri = uri.slice(index+1);
-  index = uri.indexOf("&");
-  uri = uri.slice(index+1);
-  index = uri.indexOf("&");
-  userdob = uri.slice(4,index);
-
-  uri = uri.slice(index+1);
-  index = uri.indexOf("&");
-  usergender = uri.slice(7,index);
-
-  uri = uri.slice(index+1);
-  index = uri.indexOf("&");
-  userphone = uri.slice(6,index);
-
-  console.log(username);
-  console.log(useremail);
-  console.log(userpassword);
-  console.log(userdob);
-  console.log(usergender);
-  console.log(userphone);
- 
-  var output = "Tên tài khoản: " + username + "<br>" +
-               "Email: " + useremail + "<br>"+
-               "Mật khẩu: " + userpassword + "<br>" +
-               "Ngày sinh: " + userdob + "<br>" +
-               "Giới tính: " + usergender + "<br>" +
-               "Điện thoại " + userphone;
-  $('.content').html(output);
 }  
+
+
 
 

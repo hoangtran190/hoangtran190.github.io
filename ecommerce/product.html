@@ -11,7 +11,15 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="animate.css">
 	<style>
-
+		button.main{
+			width: 100%;
+		}
+		
+		.tick{
+			color: red;
+			
+			font-weight: bold;
+		}
 	</style>
 </head>
 
@@ -128,27 +136,44 @@
   </div><!-- /.container-fluid -->
 </nav>
 
+<div class="row visible-xs" style="padding-bottom: 10px; text-align: center">
+		<label for="giohangbutton">GIỎ HÀNG </label>
+		<button type="button" class="btn btn-danger" id="giohangbutton" data-toggle="modal" data-target="#giohanggiohang">
+		  <span class="glyphicon glyphicon-shopping-cart"></span>
+			<span class="badge">2</span>
+		</button>
+	</div>
+	<!-- search	   -->
+	<div class="row visible-xs" style="text-align:center">
+	    <input type="text"  placeholder="Tìm kiếm">
+	    <button type="submit" class="btn btn-danger">Nhập</button>
+	</div>
 
 <div class="container">
 <!-- thanh loc -->
-	<div class="hidden-xs col-sm-2" >
+	<div class="hidden-xs col-sm-2" style="border: 1px red solid; overflow: hidden; " >
+		
 		<div class="row " style="border-bottom: 1px red solid; margin-bottom: 10px;">
-		<span style="color:red; font-size:20px">DANH MỤC</span>  <br>
+		<span style="color:red; font-size:20px">GIỎ HÀNG </span>
 		</div>
-		<input type="checkbox" name="vehicle" value="Bike" id="aophuot">
-		<label for="aophuot"> Áo phượt</label> <br>
+		
+		<button type="button" class="btn btn-danger" id="giohangbutton" data-toggle="modal" data-target="#giohanggiohang">
+		  <span class="glyphicon glyphicon-shopping-cart"></span>
+			<span class="badge">2</span>
+		</button>
 
-		<input type="checkbox" name="vehicle" value="Bike" id="quanphuot">
-		<label for="quanphuot"> Quần phượt</label> <br>
+		<div class="row " style="border-bottom: 1px red solid; margin-bottom: 10px; margin-top: 6px;">
+		<span style="color:red; font-size:20px">DANH MỤC</span>
+		</div>
+		<div id="checkkm"  style="text-decoration: underline"> Khuyến mãi</div> 
 
-		<input type="checkbox" name="vehicle" value="Bike" id="mubaohiem">
-		<label for="mubaohiem"> Mũ bảo hiểm</label> <br>
+		<div id="checkao" style="text-decoration: underline"> Áo phượt</div> 
 
-		<input type="checkbox" name="vehicle" value="Bike" id="tuibalo">
-		<label for="tuibalo"> Túi Ba lô</label> <br>
+		<div id="checkquan" style="text-decoration: underline"> Quần phượt </div> 
 
-		<input type="checkbox" name="vehicle" value="Bike" id="camera">
-		<label for="camera"> Camera</label> <br>
+		<div style="text-decoration: underline"> Mũ bảo hiểm </div> 
+		<div style="text-decoration: underline"> Túi ba lô </div> 
+		
 
 
 
@@ -169,20 +194,83 @@
 	</div>
 
 	<!-- phần chính -->
-<div class="hidden-xs col-sm-10" >
-<div class="row" style="padding-left: 50px; text-align: center">
-
-	<br>
+<div class="col-sm-10 col-xs-12" >
+	
 
 
 
+<!-- khuyen mai -->
+<div class="row" id="khuyenmai">
+	
+</div>
 
-<!-- gio hang -->
-	<label for="giohangbutton">Giỏ hàng</label>
-	<button type="button" class="btn btn-danger" id="giohangbutton" data-toggle="modal" data-target="#giohanggiohang">
-	  <span class="glyphicon glyphicon-shopping-cart"></span>
-		<span class="badge">2</span>
-	</button>
+
+<!-- ao phuot -->
+<div class="row" id="aophuot">
+	
+</div>
+<!-- quan phuot -->
+<div class="row" id='quanphuot' >
+	
+</div>
+
+</div>
+</div>
+
+<!-- footer -->
+<div class="container-fluid" style="color:white; background-color:black">
+	<div class="container" style="color:white; background-color:black; padding-top: 20px;">
+		<!-- footer normal -->
+		<div class="row hidden-xs">
+			<div class="col-sm-2">
+				<a style="color:white" href="#">Về Cửa hàng</a> <br>
+				<a style="color:white" href="#">Ý kiến khách hàng</a> <br>
+
+			</div>
+			<div class="col-sm-2">
+				<a style="color:white" href="#">Chương trình Liên hệ</a> <br>
+				<a style="color:white" href="#">Chương trình hợp tác</a> <br>
+				<a style="color:white" href="#">Chính sách cho doanh nghiệp</a> <br>
+			</div>
+			<div class="col-sm-2">
+				<a style="color:white" href="#">Các điều khoản</a> <br>
+				<a style="color:white" href="#">Điều khoản sử dụng</a> <br>
+				<a style="color:white" href="#">Điều khoản ship</a> <br>
+				<a style="color:white" href="#">Chính sách đổi hàng</a> <br>
+			</div>
+			<div class="col-sm-3">
+				Nhận thông tin cập nhật
+				<input type="text" id="email_newsletter" placeholder="Nhập email"> <br> <br>
+				<img src="/ecommerce/img/icon1.png" style="width:50px;">
+				<img src="/ecommerce/img/icon2.png" style="width:50px;">
+				<img src="/ecommerce/img/icon3.png" style="width:50px;">
+
+
+			</div>
+			<div class="col-sm-3">
+				Thanh toán qua <br>
+				<img src="/ecommerce/img/bank1.jpg" style="width:50px;">
+				<img src="/ecommerce/img/bank2.jpg" style="width:50px;">
+				<img src="/ecommerce/img/bank3.jpg" style="width:50px;">
+				<img src="/ecommerce/img/bank4.jpg" style="width:50px;">
+				<img src="/ecommerce/img/bank5.jpg" style="width:50px;">
+				<img src="/ecommerce/img/bank6.jpg" style="width:50px;">
+
+
+			</div>
+		</div>
+		<div class="row">
+
+		</div>
+	</div>
+</div>
+<!-- copyright -->
+<div class="container-fluid" style="background-color:black">
+	<div class="container" style="background-color:black; color: white; padding-top: 10px; padding-bottom: 10px;">
+		Copyright © 2015 PhượtVN. Designed By HoangTran
+	</div>
+</div>
+
 
 <!-- Modal gio hang-->
 <div class="modal fade" id="giohanggiohang" tabindex="-1" role="dialog" aria-labelledby="giohanggiohangLabel">
@@ -278,302 +366,6 @@
 </div>
 
 
-
-
-
-		&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;
-
-	<!-- search	   -->
-    <input type="text"  placeholder="Tìm kiếm">
-    <button type="submit" class="btn btn-danger">Nhập</button>
-
-
-
-</div>
-<!-- khuyen mai -->
-<div class="row" style="padding-left: 50px; ">
-	<div style="border-bottom: red solid 1px;"><h4>Khuyến mãi</h4></div>
-
-	<!-- tung san pham -->
-	<div class="col-xs-12 col-sm-4">
-		<div class="thumbnail">
-			<div class="box">
-			<a href="aokhoac1.html">
-			<img src="img/aokhoac1.jpg" style="width:100%">
-			</a>
-				<div class="ribbon"><span>Sale</span></div>
-			</div>
-
-			<div class="caption">
-				<h3>Áo Giáp Bảo Hộ Đi Motor Dainese VR6 Gù Titanium</h3>
-				<p class="special">1,500,000Đ</p>
-				<del>1,900,000Đ</del> <br>
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star-empty"></span>
-				<span class="glyphicon glyphicon-star-empty"></span>
-
-				<p><a href="#" class="btn btn-default" role="button">Thêm giỏ hàng</a> <a href="#" class="btn btn-danger" role="button">Mua ngay</a></p>
-			</div>
-		</div>
-
-	</div>
-	<div class="col-xs-12 col-sm-4">
-		<div class="thumbnail">
-			<div class="box">
-			<img src="img/aokhoac2.jpg" style="width:100%">
-				<div class="ribbon"><span>Sale</span></div>
-			</div>
-
-			<div class="caption">
-				<h3>Áo Giáp Khoác Dainese Super Speed</h3>
-				<p class="special">3,500,000Đ</p>
-
-				<del>3,200,000Đ</del> <br>
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star-empty"></span>
-				<span class="glyphicon glyphicon-star-empty"></span>
-				<p><a href="#" class="btn btn-default" role="button">Thêm giỏ hàng</a> <a href="#" class="btn btn-danger" role="button">Mua ngay</a></p>
-			</div>
-		</div>
-
-	</div>
-	<div class="col-xs-12 col-sm-4">
-		<div class="thumbnail">
-			<div class="box">
-			<img src="img/aokhoac3.jpg" style="width:100%">
-				<div class="ribbon"><span>Sale</span></div>
-			</div>
-
-			<div class="caption">
-				<h3>Áo Khoác Giáp Chống Nước Taichi RSJ 285</h3>
-				<p class="special">2,500,000Đ</p>
-				<del>2,200,000Đ</del> <br>
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star-empty"></span>
-				<span class="glyphicon glyphicon-star-empty"></span>
-				<p><a href="#" class="btn btn-default" role="button">Thêm giỏ hàng</a> <a href="#" class="btn btn-danger" role="button">Mua ngay</a></p>
-			</div>
-		</div>
-
-	</div>
-
-
-
-</div>
-
-
-<!-- ao phuot -->
-<div class="row" style="padding-left: 50px;">
-	<div style="border-bottom: red solid 1px;"><h4>Áo phượt</h4></div>
-
-	<div class="col-xs-12 col-sm-4">
-		<div class="thumbnail">
-			<div class="box">
-			<img src="img/aokhoac1.jpg" style="width:100%">
-				<div class="ribbon"><span>Sale</span></div>
-			</div>
-
-			<div class="caption">
-				<h3>Áo Giáp Bảo Hộ Đi Motor Dainese VR6 Gù Titanium</h3>
-				<p class="special">1,500,000Đ</p>
-				<del>1,900,000Đ</del> <br>
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star-empty"></span>
-				<span class="glyphicon glyphicon-star-empty"></span>
-
-				<p><a href="#" class="btn btn-default" role="button">Thêm giỏ hàng</a> <a href="#" class="btn btn-danger" role="button">Mua ngay</a></p>
-			</div>
-		</div>
-
-	</div>
-	<div class="col-xs-12 col-sm-4">
-		<div class="thumbnail">
-
-			<img src="img/aokhoac2.jpg" style="width:100%">
-
-
-
-			<div class="caption">
-				<h3>Áo Giáp Khoác Dainese Super Speed</h3>
-				<p class="special">3,500,000Đ</p>
-
-
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star-empty"></span>
-				<span class="glyphicon glyphicon-star-empty"></span>
-				<p><a href="#" class="btn btn-default" role="button">Thêm giỏ hàng</a> <a href="#" class="btn btn-danger" role="button">Mua ngay</a></p>
-			</div>
-		</div>
-
-	</div>
-	<div class="col-xs-12 col-sm-4">
-		<div class="thumbnail">
-
-			<img src="img/aokhoac3.jpg" style="width:100%">
-
-
-
-			<div class="caption">
-				<h3>Áo Khoác Giáp Chống Nước Taichi RSJ 285</h3>
-				<p class="special">2,500,000Đ</p>
-
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star-empty"></span>
-				<span class="glyphicon glyphicon-star-empty"></span>
-				<p><a href="#" class="btn btn-default" role="button">Thêm giỏ hàng</a> <a href="#" class="btn btn-danger" role="button">Mua ngay</a></p>
-			</div>
-		</div>
-
-	</div>
-
-
-</div>
-<!-- quan phuot -->
-<div class="row" style="padding-left: 50px;">
-	<div style="border-bottom: red solid 1px;"><h4>Quần phượt</h4></div>
-
-	<div class="col-xs-12 col-sm-4">
-		<div class="thumbnail">
-			<div class="box">
-			<img src="img/aokhoac1.jpg" style="width:100%">
-				<div class="ribbon"><span>Sale</span></div>
-			</div>
-
-			<div class="caption">
-				<h3>Áo Giáp Bảo Hộ Đi Motor Dainese VR6 Gù Titanium</h3>
-				<p class="special">1,500,000Đ</p>
-				<del>1,900,000Đ</del> <br>
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star-empty"></span>
-				<span class="glyphicon glyphicon-star-empty"></span>
-
-				<p><a href="#" class="btn btn-default" role="button">Thêm giỏ hàng</a> <a href="#" class="btn btn-danger" role="button">Mua ngay</a></p>
-			</div>
-		</div>
-
-	</div>
-	<div class="col-xs-12 col-sm-4">
-		<div class="thumbnail">
-
-			<img src="img/aokhoac2.jpg" style="width:100%">
-
-
-
-			<div class="caption">
-				<h3>Áo Giáp Khoác Dainese Super Speed</h3>
-				<p class="special">3,500,000Đ</p>
-
-
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star-empty"></span>
-				<span class="glyphicon glyphicon-star-empty"></span>
-				<p><a href="#" class="btn btn-default" role="button">Thêm giỏ hàng</a> <a href="#" class="btn btn-danger" role="button">Mua ngay</a></p>
-			</div>
-		</div>
-
-	</div>
-	<div class="col-xs-12 col-sm-4">
-		<div class="thumbnail">
-
-			<img src="img/aokhoac3.jpg" style="width:100%">
-
-
-
-			<div class="caption">
-				<h3>Áo Khoác Giáp Chống Nước Taichi RSJ 285</h3>
-				<p class="special">2,500,000Đ</p>
-
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star"></span>
-				<span class="glyphicon glyphicon-star-empty"></span>
-				<span class="glyphicon glyphicon-star-empty"></span>
-				<p><a href="#" class="btn btn-default" role="button">Thêm giỏ hàng</a> <a href="#" class="btn btn-danger" role="button">Mua ngay</a></p>
-			</div>
-		</div>
-
-	</div>
-
-
-</div>
-
-</div>
-</div>
-
-<!-- footer -->
-<div class="container-fluid" style="color:white; background-color:black">
-	<div class="container" style="color:white; background-color:black; padding-top: 20px;">
-		<!-- footer normal -->
-		<div class="row hidden-xs">
-			<div class="col-sm-2">
-				<a style="color:white" href="#">Về Cửa hàng</a> <br>
-				<a style="color:white" href="#">Ý kiến khách hàng</a> <br>
-
-			</div>
-			<div class="col-sm-2">
-				<a style="color:white" href="#">Chương trình Liên hệ</a> <br>
-				<a style="color:white" href="#">Chương trình hợp tác</a> <br>
-				<a style="color:white" href="#">Chính sách cho doanh nghiệp</a> <br>
-			</div>
-			<div class="col-sm-2">
-				<a style="color:white" href="#">Các điều khoản</a> <br>
-				<a style="color:white" href="#">Điều khoản sử dụng</a> <br>
-				<a style="color:white" href="#">Điều khoản ship</a> <br>
-				<a style="color:white" href="#">Chính sách đổi hàng</a> <br>
-			</div>
-			<div class="col-sm-3">
-				Nhận thông tin cập nhật
-				<input type="text" id="email_newsletter" placeholder="Nhập email"> <br> <br>
-				<img src="/ecommerce/img/icon1.png" style="width:50px;">
-				<img src="/ecommerce/img/icon2.png" style="width:50px;">
-				<img src="/ecommerce/img/icon3.png" style="width:50px;">
-
-
-			</div>
-			<div class="col-sm-3">
-				Thanh toán qua <br>
-				<img src="/ecommerce/img/bank1.jpg" style="width:50px;">
-				<img src="/ecommerce/img/bank2.jpg" style="width:50px;">
-				<img src="/ecommerce/img/bank3.jpg" style="width:50px;">
-				<img src="/ecommerce/img/bank4.jpg" style="width:50px;">
-				<img src="/ecommerce/img/bank5.jpg" style="width:50px;">
-				<img src="/ecommerce/img/bank6.jpg" style="width:50px;">
-
-
-			</div>
-		</div>
-		<div class="row">
-
-		</div>
-	</div>
-</div>
-<!-- copyright -->
-<div class="container-fluid" style="background-color:black">
-	<div class="container" style="background-color:black; color: white; padding-top: 10px; padding-bottom: 10px;">
-		Copyright © 2015 PhượtVN. Designed By HoangTran
-	</div>
-</div>
-
-
-
-
-
 <!-- Latest compiled and minified JavaScript -->
 <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -590,6 +382,9 @@
 		});
 	})
 
+
 </script>
+
+<script src="product.js"></script>
 </body>
 </html>

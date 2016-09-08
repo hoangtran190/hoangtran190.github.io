@@ -11,19 +11,19 @@ var sanpham = [
 			'<div class="thumbnail">'+
 				'<div class="box">'+
 				'<a href="aokhoac1.html">' +
-				'<img src="img/aokhoac1.jpg" style="width:100%">' +
+				'<img src="/img/aokhoac1.jpg" style="width:100%">' +
 				'</a>' +
 					'<div class="ribbon"><span>Sale</span></div>' +
 				'</div>' +
 				'<div class="caption">' +
-					'<h3>Áo Giáp Bảo Hộ Đi Motor Dainese VR6 Gù Titanium</h3>' +
+					'<h3>Áo Giáp Bảo Hộ Đi Motor Dainese Titanium</h3>' +
 					'<p class="special">1,500,000Đ</p>' +
 					'<del>1,900,000Đ</del> <br>' +
 					'<span class="glyphicon glyphicon-star"></span>' +
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<span class="glyphicon glyphicon-star-empty"></span>'+
+					'<span class="glyphicon glyphicon-star-empty"></span> <br>'+
 					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
 					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
 				'</div>' +
@@ -41,7 +41,7 @@ var sanpham = [
 			'<div class="thumbnail">'+
 				'<div class="box">'+
 				'<a href="aokhoac2.html">' +
-				'<img src="img/aokhoac2.jpg" style="width:100%">' +
+				'<img src="/img/aokhoac2.jpg" style="width:100%">' +
 				'</a>' +
 					'<div class="ribbon"><span>Sale</span></div>' +
 				'</div>' +
@@ -53,7 +53,7 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<span class="glyphicon glyphicon-star-empty"></span>'+
+					'<span class="glyphicon glyphicon-star-empty"></span> <br>'+
 					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
 					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
 				'</div>' +
@@ -71,7 +71,7 @@ var sanpham = [
 			'<div class="thumbnail">'+
 				
 				'<a href="aokhoac3.html">' +
-				'<img src="img/aokhoac3.jpg" style="width:100%">' +
+				'<img src="/img/aokhoac3.jpg" style="width:100%">' +
 				'</a>' +
 					
 				
@@ -83,7 +83,7 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<span class="glyphicon glyphicon-star-empty"></span>'+
+					'<span class="glyphicon glyphicon-star-empty"></span> <br>'+
 					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
 					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
 				'</div>' +
@@ -100,7 +100,7 @@ var sanpham = [
 		'<div class="col-xs-12 col-sm-4">'+
 			'<div class="thumbnail">'+
 				'<a href="#">' +
-				'<img src="img/aokhoac4.jpg" style="width:100%">' +
+				'<img src="/img/aokhoac4.jpg" style="width:100%">' +
 				'</a>' +
 				'<div class="caption">' +
 					'<h3>ÁO GIÓ NAM GORE-TEX CHỐNG THẤM NƯỚC</h3>' +
@@ -109,7 +109,7 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<span class="glyphicon glyphicon-star-empty"></span>'+
+					'<span class="glyphicon glyphicon-star-empty"></span> <br>'+
 					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
 					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
 				'</div>' +
@@ -126,7 +126,7 @@ var sanpham = [
 		'<div class="col-xs-12 col-sm-4">'+
 			'<div class="thumbnail">'+
 				'<a href="#">' +
-				'<img src="img/aokhoac5.jpg" style="width:100%">' +
+				'<img src="/img/aokhoac5.jpg" style="width:100%">' +
 				'</a>' +
 				'<div class="caption">' +
 					'<h3>ÁO GIÓ NAM CHUSIMI CHỐNG THẤM NƯỚC</h3>' +
@@ -135,7 +135,7 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<span class="glyphicon glyphicon-star-empty"></span>'+
+					'<span class="glyphicon glyphicon-star-empty"></span> <br>'+
 					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
 					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
 				'</div>' +
@@ -152,7 +152,7 @@ var sanpham = [
 		'<div class="col-xs-12 col-sm-4">'+
 			'<div class="thumbnail">'+
 				'<a href="#">' +
-				'<img src="img/aokhoac6.jpg" style="width:100%">' +
+				'<img src="/img/aokhoac6.jpg" style="width:100%">' +
 				'</a>' +
 				'<div class="caption">' +
 					'<h3>ÁO GIÓ SOFTSHELL THE NORTH FACE NAM MADFOX NEWSTYLE</h3>' +
@@ -161,7 +161,7 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<span class="glyphicon glyphicon-star-empty"></span>'+
+					'<span class="glyphicon glyphicon-star-empty"></span> <br>'+
 					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
 					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
 				'</div>' +
@@ -179,7 +179,7 @@ var sanpham = [
 		'<div class="col-xs-12 col-sm-4">'+
 			'<div class="thumbnail">'+
 				'<a href="#">' +
-				'<img src="img/quan1.jpg" style="width:100%">' +
+				'<img src="/img/quan1.jpg" style="width:100%">' +
 				'</a>' +
 				'<div class="caption">' +
 					'<h3>QUẦN SOFTSHELL LAFUMA NỮ</h3>' +
@@ -188,7 +188,7 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<span class="glyphicon glyphicon-star-empty"></span>'+
+					'<span class="glyphicon glyphicon-star-empty"></span> <br>'+
 					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
 					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
 				'</div>' +
@@ -205,7 +205,7 @@ var sanpham = [
 		'<div class="col-xs-12 col-sm-4">'+
 			'<div class="thumbnail">'+
 				'<a href="#">' +
-				'<img src="img/quan2.jpg" style="width:100%">' +
+				'<img src="/img/quan2.jpg" style="width:100%">' +
 				'</a>' +
 				'<div class="caption">' +
 					'<h3>QUẦN SOFTSHELL LAFUMA NAM</h3>' +
@@ -214,7 +214,7 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<span class="glyphicon glyphicon-star-empty"></span>'+
+					'<span class="glyphicon glyphicon-star-empty"></span> <br>'+
 					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
 					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
 				'</div>' +
@@ -232,7 +232,7 @@ var sanpham = [
 			'<div class="thumbnail">'+
 				'<div class="box">'+
 				'<a href="#">' +
-				'<img src="img/quan3.jpg" style="width:100%">' +
+				'<img src="/img/quan3.jpg" style="width:100%">' +
 				'</a>' +
 					'<div class="ribbon"><span>Sale</span></div>' +
 				'</div>' +
@@ -244,7 +244,7 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<span class="glyphicon glyphicon-star-empty"></span>'+
+					'<span class="glyphicon glyphicon-star-empty"></span> <br>'+
 					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
 					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
 				'</div>' +

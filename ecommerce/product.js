@@ -10,9 +10,9 @@ var sanpham = [
 		'<div class="col-xs-12 col-sm-4">'+
 			'<div class="thumbnail">'+
 				'<div class="box">'+
-				'<a href="aokhoac1.html">' +
-				'<img src="img/aokhoac1.jpg" style="width:100%">' +
-				'</a>' +
+
+				'<div class="hovereffect"><a href="aokhoac1.html"><img style="width:100%" src="img/aokhoac1.jpg" alt=""><div class="overlay"><h2>' +
+			    'Áo Giáp Bảo Hộ Đi DG Motor</h2></div></a></div>'+
 					'<div class="ribbon"><span>Sale</span></div>' +
 				'</div>' +
 				'<div class="caption">' +
@@ -24,8 +24,8 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
-					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
+					'<a href="#"><button class="btn  btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
+					'<a href="giohang.html"><button class="btn  btn-danger main" role="button">Mua ngay</button></a>' +
 				'</div>' +
 			'</div>' +
 		'</div>' 
@@ -40,9 +40,10 @@ var sanpham = [
 		'<div class="col-xs-12 col-sm-4">'+
 			'<div class="thumbnail">'+
 				'<div class="box">'+
-				'<a href="aokhoac2.html">' +
-				'<img src="img/aokhoac2.jpg" style="width:100%">' +
-				'</a>' +
+				'<div class="hovereffect"><a href="aokhoac2.html"><img style="width:100%" src="img/aokhoac2.jpg" alt=""><div class="overlay"><h2>' +
+			    'Áo Giáp Khoác Dainese Super</h2>'+
+			    '</div></a></div>'+
+				
 					'<div class="ribbon"><span>Sale</span></div>' +
 				'</div>' +
 				'<div class="caption">' +
@@ -54,8 +55,8 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
-					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
+					'<a href="#"><button class="btn  btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
+					'<a href="giohang.html"><button class="btn  btn-danger main" role="button">Mua ngay</button></a>' +
 				'</div>' +
 			'</div>' +
 		'</div>' 
@@ -69,10 +70,9 @@ var sanpham = [
 		content:
 		'<div class="col-xs-12 col-sm-4">'+
 			'<div class="thumbnail">'+
+				'<div class="hovereffect"><img style="width:100%" src="img/aokhoac3.jpg" alt=""><div class="overlay"><h2>' +
+			    'Áo Khoác Giáp Chống Nước Taichi</h2></div></div>'+
 				
-				'<a href="aokhoac3.html">' +
-				'<img src="img/aokhoac3.jpg" style="width:100%">' +
-				'</a>' +
 					
 				
 				'<div class="caption">' +
@@ -84,8 +84,8 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
-					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
+					'<a href="#"><button class="btn  btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
+					'<a href="giohang.html"><button class="btn  btn-danger main" role="button">Mua ngay</button></a>' +
 				'</div>' +
 			'</div>' +
 		'</div>' 
@@ -99,9 +99,10 @@ var sanpham = [
 		content:
 		'<div class="col-xs-12 col-sm-4">'+
 			'<div class="thumbnail">'+
-				'<a href="#">' +
-				'<img src="img/aokhoac4.jpg" style="width:100%">' +
-				'</a>' +
+				
+				'<div class="hovereffect"><img style="width:100%" src="img/aokhoac4.jpg" alt=""><div class="overlay"><h2>' +
+			    'Áo Giáp Bảo Hộ Đi DG Motor</h2></div></div>'+
+				
 				'<div class="caption">' +
 					'<span>ÁO GIÓ NAM GORE-TEX CHỐNG THẤM </span>' +
 					'<p class="special">1,000,000Đ</p>' +
@@ -110,8 +111,8 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
-					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
+					'<a href="#"><button class="btn  btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
+					'<a href="giohang.html"><button class="btn  btn-danger main" role="button">Mua ngay</button></a>' +
 				'</div>' +
 			'</div>' +
 		'</div>' 
@@ -125,9 +126,9 @@ var sanpham = [
 		content:
 		'<div class="col-xs-12 col-sm-4">'+
 			'<div class="thumbnail">'+
-				'<a href="#">' +
-				'<img src="img/aokhoac5.jpg" style="width:100%">' +
-				'</a>' +
+				'<div class="hovereffect"><img style="width:100%" src="img/aokhoac5.jpg" alt=""><div class="overlay"><h2>' +
+			    'ÁO GIÓ CHUSIMI DG THE NORTH FACE</h2></div></div>'+
+				 
 				'<div class="caption">' +
 					'<span>ÁO GIÓ CHUSIMI DG THE NORTH FACE<span>' +
 					'<p class="special">500,000Đ</p>' +
@@ -136,8 +137,8 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
-					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
+					'<a href="#"><button class="btn  btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
+					'<a href="giohang.html"><button class="btn  btn-danger main" role="button">Mua ngay</button></a>' +
 				'</div>' +
 			'</div>' +
 		'</div>' 
@@ -151,9 +152,9 @@ var sanpham = [
 		content:
 		'<div class="col-xs-12 col-sm-4">'+
 			'<div class="thumbnail">'+
-				'<a href="#">' +
-				'<img src="img/aokhoac6.jpg" style="width:100%">' +
-				'</a>' +
+				'<div class="hovereffect"><img style="width:100%" src="img/aokhoac6.jpg" alt=""><div class="overlay"><h2>' +
+			    'ÁO GIÓ SOFTSHELL THE NORTH FACE</h2></div></div>'+
+				
 				'<div class="caption">' +
 					'<span>ÁO GIÓ SOFTSHELL THE NORTH FACE </span>' +
 					'<p class="special">500,000Đ</p>' +
@@ -162,8 +163,8 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
-					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
+					'<a href="#"><button class="btn  btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
+					'<a href="giohang.html"><button class="btn  btn-danger main" role="button">Mua ngay</button></a>' +
 				'</div>' +
 			'</div>' +
 		'</div>' 
@@ -178,13 +179,13 @@ var sanpham = [
 		'<div class="col-xs-12 col-sm-4">'+
 			'<div class="thumbnail">'+
 				'<div class="box">'+
-				'<a href="quan3.html">' +
-				'<img src="img/quan3.jpg" style="width:100%">' +
-				'</a>' +
+				'<div class="hovereffect"><a href="quan3.html"><img style="width:100%" src="img/quan3.jpg" alt=""><div class="overlay"><h2>' +
+			    'Quần Kaki Soft LAFUMA NAM</h2></div></a></div>'+
+				
 					'<div class="ribbon"><span>Sale</span></div>' +
 				'</div>' +
 				'<div class="caption">' +
-					'<br><span>Quần Kaki Soft LAFUMA</span>' +
+					'<br><span>Quần Kaki Soft LAFUMA NAM <br></span>' +
 					'<br><p class="special">1,500,000Đ</p>' +
 					'<del>1,900,000Đ</del> <br>' +
 					'<span class="glyphicon glyphicon-star"></span>' +
@@ -192,8 +193,8 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
-					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
+					'<a href="#"><button class="btn  btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
+					'<a href="giohang.html"><button class="btn  btn-danger main" role="button">Mua ngay</button></a>' +
 				'</div>' +
 			'</div>' +
 		'</div>' 
@@ -209,19 +210,19 @@ var sanpham = [
 		content:
 		'<div class="col-xs-12 col-sm-4">'+
 			'<div class="thumbnail">'+
-				'<a href="#">' +
-				'<img src="img/quan1.jpg" style="width:100%">' +
-				'</a>' +
+				'<div class="hovereffect"><img style="width:100%" src="img/quan1.jpg" alt=""><div class="overlay"><h2>' +
+			    'Quần Softshell Lafuma Nữ KD16</h2></div></div>'+
+				
 				'<div class="caption">' +
-					'<br><span>Quần Softshell Lafuma Nữ</span>' +
-					'<p class="special">800,000Đ</p><br>' +
+					'<br><span>Quần Softshell Lafuma Nữ KD16 <br></span>' +
+					'<br><p class="special">800,000Đ</p><br>' +
 					'<span class="glyphicon glyphicon-star"></span>' +
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
-					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
+					'<a href="#"><button class="btn  btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
+					'<a href="giohang.html"><button class="btn  btn-danger main" role="button">Mua ngay</button></a>' +
 				'</div>' +
 			'</div>' +
 		'</div>' 
@@ -235,19 +236,19 @@ var sanpham = [
 		content:
 		'<div class="col-xs-12 col-sm-4">'+
 			'<div class="thumbnail">'+
-				'<a href="#">' +
-				'<img src="img/quan2.jpg" style="width:100%">' +
-				'</a>' +
+				'<div class="hovereffect"><img style="width:100%" src="img/quan2.jpg" alt=""><div class="overlay"><h2>' +
+			    'Quần Softshell Lafuma Nam</h2></div></div>'+
+				
 				'<div class="caption">' +
-					'<br><span>Quần Softshell Lafuma Nam</span>' +
-					'<p class="special">800,000Đ</p><br>' +
+					'<br><span>Quần Softshell Lafuma Nam KD20 <br></span>' +
+					'<br><p class="special">800,000Đ</p><br>' +
 					'<span class="glyphicon glyphicon-star"></span>' +
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
-					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
+					'<a href="#"><button class="btn  btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
+					'<a href="giohang.html"><button class="btn  btn-danger main" role="button">Mua ngay</button></a>' +
 				'</div>' +
 			'</div>' +
 		'</div>' 
@@ -261,9 +262,9 @@ var sanpham = [
 		content:
 		'<div class="col-xs-12 col-sm-4">'+
 			'<div class="thumbnail">'+
-				'<a href="#">' +
-				'<img src="img/quan4.jpg" style="width:100%">' +
-				'</a>' +
+				'<div class="hovereffect"><img style="width:100%" src="img/quan4.jpg" alt=""><div class="overlay"><h2>' +
+			    'Quần Softshell Lafuma Nam</h2></div></div>'+
+				
 				'<div class="caption">' +
 					'<br><span>Quần Softshell Lafuma Nam</span>' +
 					'<p class="special">800,000Đ</p><br>' +
@@ -272,8 +273,8 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
-					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
+					'<a href="#"><button class="btn  btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
+					'<a href="giohang.html"><button class="btn  btn-danger main" role="button">Mua ngay</button></a>' +
 				'</div>' +
 			'</div>' +
 		'</div>' 
@@ -287,9 +288,9 @@ var sanpham = [
 		content:
 		'<div class="col-xs-12 col-sm-4">'+
 			'<div class="thumbnail">'+
-				'<a href="#">' +
-				'<img src="img/quan5.jpg" style="width:100%">' +
-				'</a>' +
+				'<div class="hovereffect"><img style="width:100%" src="img/quan5.jpg" alt=""><div class="overlay"><h2>' +
+			    'Quần Softshell Lafuma Nam</h2></div></div>'+
+				
 				'<div class="caption">' +
 					'<br><span>Quần Softshell Lafuma Nam</span>' +
 					'<p class="special">800,000Đ</p><br>' +
@@ -298,8 +299,8 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
-					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
+					'<a href="#"><button class="btn  btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
+					'<a href="giohang.html"><button class="btn  btn-danger main" role="button">Mua ngay</button></a>' +
 				'</div>' +
 			'</div>' +
 		'</div>' 
@@ -313,9 +314,9 @@ var sanpham = [
 		content:
 		'<div class="col-xs-12 col-sm-4">'+
 			'<div class="thumbnail">'+
-				'<a href="#">' +
-				'<img src="img/quan6.jpg" style="width:100%">' +
-				'</a>' +
+				'<div class="hovereffect"><img style="width:100%" src="img/quan6.jpg" alt=""><div class="overlay"><h2>' +
+			    'Quần Softshell Lafuma Nam</h2></div></div>'+
+				
 				'<div class="caption">' +
 					'<br><span>Quần Softshell Lafuma Nam</span>' +
 					'<p class="special">800,000Đ</p><br>' +
@@ -324,8 +325,8 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
-					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
+					'<a href="#"><button class="btn  btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
+					'<a href="giohang.html"><button class="btn  btn-danger main" role="button">Mua ngay</button></a>' +
 				'</div>' +
 			'</div>' +
 		'</div>' 

@@ -16,7 +16,7 @@ var sanpham = [
 					'<div class="ribbon"><span>Sale</span></div>' +
 				'</div>' +
 				'<div class="caption">' +
-					'<h3>Áo Giáp Bảo Hộ Đi Motor Dainese VR6 Gù Titanium</h3>' +
+					' <span>Áo Giáp Bảo Hộ Đi DG Motor </span>'  +
 					'<p class="special">1,500,000Đ</p>' +
 					'<del>1,900,000Đ</del> <br>' +
 					'<span class="glyphicon glyphicon-star"></span>' +
@@ -46,7 +46,7 @@ var sanpham = [
 					'<div class="ribbon"><span>Sale</span></div>' +
 				'</div>' +
 				'<div class="caption">' +
-					'<h3>Áo Giáp Khoác Dainese Super Speed</h3>' +
+					'<span>Áo Giáp Khoác Dainese Super</span>' +
 					'<p class="special">3,500,000Đ</p>' +
 					'<del>3,800,000Đ</del> <br>' +
 					'<span class="glyphicon glyphicon-star"></span>' +
@@ -76,9 +76,9 @@ var sanpham = [
 					
 				
 				'<div class="caption">' +
-					'<h3>Áo Khoác Giáp Chống Nước Taichi RSJ 285</h3>' +
-					'<p class="special">2,500,000Đ</p>' +
-					'<del>2,800,000Đ</del> <br>' +
+					'<span>Áo Khoác Giáp Chống Nước Taichi </span>' +
+					'<p class="special">2,500,000Đ</p> <br>' +
+					
 					'<span class="glyphicon glyphicon-star"></span>' +
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star"></span>'+
@@ -103,7 +103,7 @@ var sanpham = [
 				'<img src="img/aokhoac4.jpg" style="width:100%">' +
 				'</a>' +
 				'<div class="caption">' +
-					'<h3>ÁO GIÓ NAM GORE-TEX CHỐNG THẤM NƯỚC</h3>' +
+					'<span>ÁO GIÓ NAM GORE-TEX CHỐNG THẤM </span>' +
 					'<p class="special">1,000,000Đ</p>' +
 					'<span class="glyphicon glyphicon-star"></span>' +
 					'<span class="glyphicon glyphicon-star"></span>'+
@@ -129,7 +129,7 @@ var sanpham = [
 				'<img src="img/aokhoac5.jpg" style="width:100%">' +
 				'</a>' +
 				'<div class="caption">' +
-					'<h3>ÁO GIÓ NAM CHUSIMI CHỐNG THẤM NƯỚC</h3>' +
+					'<span>ÁO GIÓ CHUSIMI DG THE NORTH FACE<span>' +
 					'<p class="special">500,000Đ</p>' +
 					'<span class="glyphicon glyphicon-star"></span>' +
 					'<span class="glyphicon glyphicon-star"></span>'+
@@ -155,61 +155,8 @@ var sanpham = [
 				'<img src="img/aokhoac6.jpg" style="width:100%">' +
 				'</a>' +
 				'<div class="caption">' +
-					'<h3>ÁO GIÓ SOFTSHELL THE NORTH FACE NAM MADFOX NEWSTYLE</h3>' +
+					'<span>ÁO GIÓ SOFTSHELL THE NORTH FACE </span>' +
 					'<p class="special">500,000Đ</p>' +
-					'<span class="glyphicon glyphicon-star"></span>' +
-					'<span class="glyphicon glyphicon-star"></span>'+
-					'<span class="glyphicon glyphicon-star"></span>'+
-					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
-					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
-				'</div>' +
-			'</div>' +
-		'</div>' 
-	},
-	
-	{
-		id: 7,
-		khuyenmai:false,
-		ao:false,
-		mu:false,
-		quan:true,
-		content:
-		'<div class="col-xs-12 col-sm-4">'+
-			'<div class="thumbnail">'+
-				'<a href="#">' +
-				'<img src="img/quan1.jpg" style="width:100%">' +
-				'</a>' +
-				'<div class="caption">' +
-					'<h3>QUẦN SOFTSHELL LAFUMA NỮ</h3>' +
-					'<p class="special">800,000Đ</p>' +
-					'<span class="glyphicon glyphicon-star"></span>' +
-					'<span class="glyphicon glyphicon-star"></span>'+
-					'<span class="glyphicon glyphicon-star"></span>'+
-					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
-					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
-				'</div>' +
-			'</div>' +
-		'</div>' 
-	},
-	{
-		id: 8,
-		khuyenmai:false,
-		ao:false,
-		mu:false,
-		quan:true,
-		content:
-		'<div class="col-xs-12 col-sm-4">'+
-			'<div class="thumbnail">'+
-				'<a href="#">' +
-				'<img src="img/quan2.jpg" style="width:100%">' +
-				'</a>' +
-				'<div class="caption">' +
-					'<h3>QUẦN SOFTSHELL LAFUMA NAM</h3>' +
-					'<p class="special">800,000Đ</p>' +
 					'<span class="glyphicon glyphicon-star"></span>' +
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star"></span>'+
@@ -237,8 +184,8 @@ var sanpham = [
 					'<div class="ribbon"><span>Sale</span></div>' +
 				'</div>' +
 				'<div class="caption">' +
-					'<h3>QUẦN KAKI SOFT LAFUMA NAM</h3>' +
-					'<p class="special">1,500,000Đ</p>' +
+					'<br><span>Quần Kaki Soft LAFUMA</span>' +
+					'<br><p class="special">1,500,000Đ</p>' +
 					'<del>1,900,000Đ</del> <br>' +
 					'<span class="glyphicon glyphicon-star"></span>' +
 					'<span class="glyphicon glyphicon-star"></span>'+
@@ -252,6 +199,59 @@ var sanpham = [
 		'</div>' 
 	},
 
+	
+	{
+		id: 7,
+		khuyenmai:false,
+		ao:false,
+		mu:false,
+		quan:true,
+		content:
+		'<div class="col-xs-12 col-sm-4">'+
+			'<div class="thumbnail">'+
+				'<a href="#">' +
+				'<img src="img/quan1.jpg" style="width:100%">' +
+				'</a>' +
+				'<div class="caption">' +
+					'<br><span>Quần Softshell Lafuma Nữ</span>' +
+					'<p class="special">800,000Đ</p><br>' +
+					'<span class="glyphicon glyphicon-star"></span>' +
+					'<span class="glyphicon glyphicon-star"></span>'+
+					'<span class="glyphicon glyphicon-star"></span>'+
+					'<span class="glyphicon glyphicon-star-empty"></span>'+
+					'<span class="glyphicon glyphicon-star-empty"></span>'+
+					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
+					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
+				'</div>' +
+			'</div>' +
+		'</div>' 
+	},
+	{
+		id: 8,
+		khuyenmai:false,
+		ao:false,
+		mu:false,
+		quan:true,
+		content:
+		'<div class="col-xs-12 col-sm-4">'+
+			'<div class="thumbnail">'+
+				'<a href="#">' +
+				'<img src="img/quan2.jpg" style="width:100%">' +
+				'</a>' +
+				'<div class="caption">' +
+					'<br><span>Quần Softshell Lafuma Nam</span>' +
+					'<p class="special">800,000Đ</p><br>' +
+					'<span class="glyphicon glyphicon-star"></span>' +
+					'<span class="glyphicon glyphicon-star"></span>'+
+					'<span class="glyphicon glyphicon-star"></span>'+
+					'<span class="glyphicon glyphicon-star-empty"></span>'+
+					'<span class="glyphicon glyphicon-star-empty"></span>'+
+					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
+					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
+				'</div>' +
+			'</div>' +
+		'</div>' 
+	}
 
 ];
 
@@ -365,7 +365,8 @@ function filterao() {
 	};
 }
 
-
+var cw = $('.thumbnail').find('img').width();
+$('.thumbnail').find('img').css({'height':cw+'px'});
 
 
 

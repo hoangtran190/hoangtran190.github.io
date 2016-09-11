@@ -62,7 +62,7 @@
 				<ul class="nav navbar-nav" id="hoverbox">
 					<!-- san pham normal -->
 
-					<li class="active"><a class="hidden-xs" href="/ecommerce/product.html">Sản phẩm</a></li>
+					<li ><a class="hidden-xs" href="/ecommerce/product.html">Sản phẩm</a></li>
 
 					<li><a href="/ecommerce/share.html">Chia sẻ</a></li>
 					<li><a href="/ecommerce/contact.html">Liên hệ</a></li>
@@ -110,9 +110,7 @@
 
 <ol class="breadcrumb">
   <li><a href="/ecommerce/product.html">Trang chủ</a></li>
-  <li><a href="/ecommerce/product.html">Áo phượt</a></li>
-
-  <li class="active">Áo Giáp Bảo Hộ Đi DG Motor </li>
+  <li class="active">Giỏ hàng </li>
 </ol>
 </div>
 
@@ -145,163 +143,107 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-<div class="row visible-xs" style="padding-bottom: 10px; text-align: center">
-		<label for="giohangbutton">GIỎ HÀNG </label>
-		<a href="/ecommerce/giohang.html"><button type="button" class="btn btn-danger" id="giohangbutton" data-toggle="modal" data-target="#giohanggiohang">
-		  <span class="glyphicon glyphicon-shopping-cart"></span>
-			<span class="badge">3</span>
-		</button></a>
-	</div>
+
 	<!-- search	   -->
-	<div class="row visible-xs" style="text-align:center">
-	    <input type="text"  placeholder="Tìm kiếm">
-	    <button type="submit" class="btn btn-danger">Nhập</button>
-	</div>
-
+<div class="row visible-xs" style="text-align:center">
+    <input type="text"  placeholder="Tìm kiếm">
+    <button type="submit" class="btn btn-danger">Nhập</button>
+</div>
+	<!-- phan chinh -->
 <div class="container">
-	<!-- thanh loc -->
-	<div class="hidden-xs col-sm-2" style="border: 1px red solid; overflow: hidden " >
-		<div class="row " style="border-bottom: 1px red solid; margin-bottom: 10px; margin-top: 6px;">
-		<span style="color:red; font-size:20px">TÌM KIẾM</span>
+	<div class="col-xs-12 col-sm-5">
+		<div class="row" style="border-bottom: 1px red solid; margin-bottom: 10px;">
+			<h3>Thông tin khách hàng</h3>
 		</div>
-		<input type="text" name="" placeholder="TÌM KIẾM" style="width:100%">
-	    
-
-		<div class="row " style="border-bottom: 1px red solid; margin-bottom: 10px;border-top: 1px red solid; margin-top:10px; ">
-		<span style="color:red; font-size:20px">GIỎ HÀNG </span>
+		<div class="row" style="margin-bottom:12px;">
+			<input type="text" placeholder="Nhập họ và tên" style="width:75%">
 		</div>
-		
-		<button type="button" class="btn btn-danger" id="giohangbutton" data-toggle="modal" data-target="#giohanggiohang">
-		  <span class="glyphicon glyphicon-shopping-cart"></span>
-			<span class="badge">3</span>
-		</button>
-
-		<div class="row " style="border-bottom: 1px red solid; margin-bottom: 10px; margin-top: 6px;border-top: 1px red solid;">
-		<span style="color:red; font-size:20px">DANH MỤC</span>
+		<div class="row" style="margin-bottom:12px;">
+			<input type="text" placeholder="Nhập Email" style="width:75%">
 		</div>
-		<div id="checkkm"  style="text-decoration: underline"> Khuyến mãi</div> 
-
-		<div id="checkao" style="text-decoration: underline"> Áo phượt</div> 
-
-		<div id="checkquan" style="text-decoration: underline"> Quần phượt </div> 
-
-		<div style="text-decoration: underline"> Mũ bảo hiểm </div> 
-		<div style="text-decoration: underline"> Túi ba lô </div> 
-		
-
-
-
-		<br>
-				<!-- sap xep	 -->
-		<div class="row " style="border-bottom: 1px red solid; margin-bottom: 10px; margin-top: 6px;border-top: 1px red solid;">
-		<span style="color:red; font-size:20px; ">SẮP XẾP</span>
-		</div>		
-		
-		<select name="sapxep" id="sapxep" style="width:100%; margin-bottom: 10px;">
-			<option value="default"><span>Mặc định</span></option>
-			<option value="abc"><span>Tên (A -> Z)</span></option>
-			<option value="zyx"><span>Tên (Z -> A)</span></option>
-			<option value="priceup"><span>Giá (Thấp -> Cao)</span></option>
-			<option value="pricedown"><span>Giá (Cao -> Thấp)</span></option>
-			<option value="reviewup"><span>Đánh giá (Cao nhất)</span></option>
-			<option value="reviewdown"><span>Đánh giá (Thấp nhất)</span></option>
-
-		</select>
-
-	</div>
-
-		<!-- phần chính -->
-	<div class="col-sm-9 col-xs-12 col-sm-offset-1" >
+		<div class="row" style="margin-bottom:12px;">
+			<input type="text" placeholder="Nhập số điện thoại" style="width:75%">
+		</div>
 		<div class="row">
-			<div class="col-sx-12 col-sm-6">
-				<img src="img/aokhoac1.jpg" alt="" style="width:100%">
+			<input type="text" placeholder="Nhập địa chỉ" style="width:75%">
+		</div>
+		<div class="row" style="border-bottom: 1px red solid; margin-bottom: 10px;">
+			<h3>Hình thức thanh toán</h3>
+		</div>
+		<input type="radio" name="gender" checked id="thanhtoan1"> <label for="thanhtoan1">Thanh toán tại nhà</label><br>
+		<input type="radio" name="gender" id="thanhtoan2"> <label for="thanhtoan2">Thanh toán tại cửa hàng</label><br>
+		<input type="radio" name="gender" id="thanhtoan3"> <label for="thanhtoan3">Thanh toán qua Bảo Kim</label><br><br>
+	</div>
+	
+	<div class="col-xs-12 col-sm-6 col-sm-offset-1">
+		<div class="row" style="border-bottom: 1px red solid; margin-bottom: 10px;">
+			<h3>Thông tin giỏ hàng</h3>
+		</div>
+		<div class="row" style="margin-bottom:10px">
+			<div class="col-xs-4">
+				<img src="img/aokhoac1.jpg" alt="" class="img-responsive">
 			</div>
-			<div class="col-sx-12 col-sm-6">
-				<div class="row">
-					<h3>Áo Giáp Bảo Hộ Đi DG Motor </h3>
-				</div>
-				<div class="row">
-					<span class="glyphicon glyphicon-star"></span> 
-					<span class="glyphicon glyphicon-star"></span>
-					<span class="glyphicon glyphicon-star"></span>
-					<span class="glyphicon glyphicon-star-empty"></span>
-					<span class="glyphicon glyphicon-star-empty"></span>
-					Đánh giá				
-				</div>
-				<div class="row">
-					<p class="special" style="font-weight: bold;">1,500,000Đ </p>
-					<del>1,900,000Đ</del>
-				</div>
-				<hr>
-				<div class="row" style="font-size: 16px; ">
-					Tình trạng: <span style="color:red">Còn Hàng<span class="glyphicon glyphicon-ok"></span></span> <br>
-					Size: S - M - L
+			<div class="col-xs-7 col-xs-offset-1">
+				Áo Giáp Bảo Hộ Đi DG Motor  <br>	
+				Giá: 1,500,000Đ <br>	
+				Số lượng: 1 <br>	
+				<button class="btn btn-danger"> Xoá </button>
+			</div>
 
-				</div>	
-				<br>
-				<div class="row">
-					<a href="/ecommerce/giohang.html"><button class="btn btn-danger"> MUA NGAY ></button></a>
-				</div>
-				<hr>
-				<div class="row" style="font-size: 12px;">
-					<p style="font-size: 16px;">MADE IN VIETNAM </p>
-					- Chất liệu vải Gore-Tex chống thấm nước, bên trong lót lưới giúp giữ độ thông thoáng, không gây bí, dính. <br>
-					- 2 túi 2 bên có khóa kéo an toàn. <br>
-					- 1 túi giấu bên trong áo để đựng những vật dụng, giấy tờ quan trọng. <br>
-					- Các đường may được ép Seam bên trong giúp chống thấm hoàn toàn. <br>
-					- Áo rất nhẹ, xếp gọn. <br>
-					- Thích hợp cho mọi loại hình du lịch, Trekking, Hiking, leo núi, cắm trại,... <br>
-					- Nón áo có thể tháo rời tuỳ ý. <br>
-				</div> 
+		</div>
+		<div class="row" style="margin-bottom:10px">
+			<div class="col-xs-4" >
+				<img src="img/aokhoac2.jpg" alt="" class="img-responsive">
+			</div>
+			<div class="col-xs-7 col-xs-offset-1">
+				Áo Giáp Khoác Dainese Super  <br>	
+				Giá: 3,500,000Đ <br>	
+				Số lượng: 1 <br>	
+				<button class="btn btn-danger"> Xoá </button>
+			</div>
 
+		</div>
+		<div class="row" style="margin-bottom:10px">
+			<div class="col-xs-4">
+				<img src="img/quan1.jpg" alt="" class="img-responsive">
+			</div>
+			<div class="col-xs-7 col-xs-offset-1">
+				Quần Softshell Lafuma Nữ  <br>	
+				Giá: 800,000Đ <br>	
+				Số lượng: 1 <br>	
+				<button class="btn btn-danger"> Xoá </button>
+			</div>
+
+		</div>
+		<div class="row" style="border-top:1px solid red; padding-top: 10px;">
+			<div class="col-xs-4">
+				Thành tiền
+			</div>
+			<div class="col-xs-7 col-xs-offset-1" style="font-weight: bold">
+				5,800,000Đ
 				
 			</div>
 
-		</div>
+			<div class="col-xs-4">
+				Phí vận chuyển 
+			</div>
+			<div class="col-xs-7 col-xs-offset-1" style="font-weight: bold">
+				0
 
-
-
-	</div>
-
-</div>
-<hr>
-<div class="container" style="text-align:center;">
-	<div class="row" style="border-top: 1px solid red;">
-		<h3 class="special">SẢN PHẨM TƯƠNG TỰ</h3>
-
-	</div>
-	<div class="row">
-		<div class="col-xs-6 col-sm-3">
-			<img src="img/aokhoac2.jpg" alt="" class="img-responsive">
-			Áo Giáp Khoác Dainese Super <br>
-			3,500,000Đ
-		</div>
-		<div class="col-xs-6 col-sm-3">
-			<img src="img/aokhoac3.jpg" alt="" class="img-responsive">
-			Áo Khoác Giáp Chống Nước Taichi <br>
-			2,500,000Đ
-		</div>
-		<div class="col-xs-6 col-sm-3">
-			<img src="img/aokhoac4.jpg" alt="" class="img-responsive">
-			ÁO GIÓ NAM GORE-TEX CHỐNG THẤM <br>
-			1,000,000Đ
-		</div>
-		<div class="col-xs-6 col-sm-3">
-			<img src="img/aokhoac5.jpg" alt="" class="img-responsive">
-			ÁO GIÓ CHUSIMI DG THE NORTH FACE <br>
-			500,000Đ
+			</div>
+			
+			<div class="col-xs-4">
+				Tổng tiền 
+			</div>
+			<div class="col-xs-7 col-xs-offset-1" style="font-weight: bold">
+				5,800,000Đ
+			</div>
+			<div class="col-xs-7 col-xs-offset-4 pull-right" style="margin-top: 16px;">
+				<button class="btn btn-danger"> ĐẶT HÀNG</button>
+			</div>
 		</div>
 
 	</div>
-	<div class="row" style="border-top: 1px red solid; margin-top: 10px;">
-		<h3 class="special">NHẬN XÉT ĐÁNH GIÁ</h3>
-	</div>
-	Để lại nhận xét và đánh giá của bạn về sản phẩm này dưới đây:
-	<div class="row" style="margin-top: 10px;">
-		<input type="text" style="width:100%; height:100px; ">
-	</div>
-
-
 </div>
 
 
@@ -450,12 +392,11 @@
     </div>
   </div>
 </div>
-<a href="#" class="scrollup">Scroll</a>
 
+<a href="#" class="scrollup"></a>
 <!-- Latest compiled and minified JavaScript -->
 <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="scrolltotop.js"></script>
 <script type="text/javascript">
 	$(function(){
 		var animateboxwhenhover = $('#hoverbox li a');
@@ -474,5 +415,6 @@
 
 <script src="product.js"></script>
 <script src="jquery.textfill.min.js"></script>
+<script src="scrolltotop.js"></script>
 </body>
 </html>

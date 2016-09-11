@@ -251,6 +251,84 @@ var sanpham = [
 				'</div>' +
 			'</div>' +
 		'</div>' 
+	},
+	{
+		id: 10,
+		khuyenmai:false,
+		ao:false,
+		mu:false,
+		quan:true,
+		content:
+		'<div class="col-xs-12 col-sm-4">'+
+			'<div class="thumbnail">'+
+				'<a href="#">' +
+				'<img src="img/quan4.jpg" style="width:100%">' +
+				'</a>' +
+				'<div class="caption">' +
+					'<br><span>Quần Softshell Lafuma Nam</span>' +
+					'<p class="special">800,000Đ</p><br>' +
+					'<span class="glyphicon glyphicon-star"></span>' +
+					'<span class="glyphicon glyphicon-star"></span>'+
+					'<span class="glyphicon glyphicon-star"></span>'+
+					'<span class="glyphicon glyphicon-star-empty"></span>'+
+					'<span class="glyphicon glyphicon-star-empty"></span>'+
+					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
+					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
+				'</div>' +
+			'</div>' +
+		'</div>' 
+	},
+	{
+		id: 11,
+		khuyenmai:false,
+		ao:false,
+		mu:false,
+		quan:true,
+		content:
+		'<div class="col-xs-12 col-sm-4">'+
+			'<div class="thumbnail">'+
+				'<a href="#">' +
+				'<img src="img/quan5.jpg" style="width:100%">' +
+				'</a>' +
+				'<div class="caption">' +
+					'<br><span>Quần Softshell Lafuma Nam</span>' +
+					'<p class="special">800,000Đ</p><br>' +
+					'<span class="glyphicon glyphicon-star"></span>' +
+					'<span class="glyphicon glyphicon-star"></span>'+
+					'<span class="glyphicon glyphicon-star"></span>'+
+					'<span class="glyphicon glyphicon-star-empty"></span>'+
+					'<span class="glyphicon glyphicon-star-empty"></span>'+
+					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
+					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
+				'</div>' +
+			'</div>' +
+		'</div>' 
+	},
+	{
+		id: 12,
+		khuyenmai:false,
+		ao:false,
+		mu:false,
+		quan:true,
+		content:
+		'<div class="col-xs-12 col-sm-4">'+
+			'<div class="thumbnail">'+
+				'<a href="#">' +
+				'<img src="img/quan6.jpg" style="width:100%">' +
+				'</a>' +
+				'<div class="caption">' +
+					'<br><span>Quần Softshell Lafuma Nam</span>' +
+					'<p class="special">800,000Đ</p><br>' +
+					'<span class="glyphicon glyphicon-star"></span>' +
+					'<span class="glyphicon glyphicon-star"></span>'+
+					'<span class="glyphicon glyphicon-star"></span>'+
+					'<span class="glyphicon glyphicon-star-empty"></span>'+
+					'<span class="glyphicon glyphicon-star-empty"></span>'+
+					'<a href="#"><button class="btn btn-default main" role="button">Thêm giỏ hàng</button></a> ' +
+					'<a href="#"><button class="btn btn-danger main" role="button">Mua ngay</button></a>' +
+				'</div>' +
+			'</div>' +
+		'</div>' 
 	}
 
 ];

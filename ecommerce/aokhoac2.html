@@ -10,6 +10,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<link rel="stylesheet" href="/ecommerce/style.css">
 	<link rel="stylesheet" href="/ecommerce/animate.css">
+	<script src='jquery-1.8.3.min.js'></script>
+	<script src='jquery.elevatezoom.js'></script>
 	<style>
 		button.main{
 			width: 100%;
@@ -134,12 +136,12 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2" >
       <ul class="nav navbar-nav">
-        <li><a href="#">Áo phượt</a></li>
-        <li><a href="#">Quần phượt</a></li>
-        <li><a href="#">Mũ bảo hiểm</a></li>
-        <li><a href="#">Túi Ba lô</a></li>
-        <li><a href="#">Đồ bảo hộ</a></li>
-        <li><a href="#">Camera</a></li>
+        <li><a href="product.html">Áo phượt</a></li>
+        <li><a href="product.html">Quần phượt</a></li>
+        <li><a href="product.html">Mũ bảo hiểm</a></li>
+        <li><a href="product.html">Túi Ba lô</a></li>
+        <li><a href="product.html">Đồ bảo hộ</a></li>
+        <li><a href="product.html">Camera</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -214,7 +216,7 @@
 	<div class="col-sm-9 col-xs-12 col-sm-offset-1" >
 		<div class="row">
 			<div class="col-sx-12 col-sm-6">
-				<img src="img/aokhoac2.jpg" alt="" style="width:100%">
+				<img id="zoom_01" src="img/aokhoac2.jpg" style="width:100%" data-zoom-image="img/aokhoac2.jpg"/>
 			</div>
 			<div class="col-sx-12 col-sm-6">
 				<div class="row">
@@ -474,5 +476,10 @@
 <script src="product.js"></script>
 <script src="jquery.textfill.min.js"></script>
 <script src="scrolltotop.js"></script>
+<script src='jquery-1.8.3.min.js'></script>
+<script src='jquery.elevatezoom.js'></script>
+<script>
+	$("#zoom_01").elevateZoom();
+</script>
 </body>
 </html>

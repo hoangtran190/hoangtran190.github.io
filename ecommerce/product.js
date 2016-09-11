@@ -178,7 +178,7 @@ var sanpham = [
 		'<div class="col-xs-12 col-sm-4">'+
 			'<div class="thumbnail">'+
 				'<div class="box">'+
-				'<a href="#">' +
+				'<a href="quan3.html">' +
 				'<img src="img/quan3.jpg" style="width:100%">' +
 				'</a>' +
 					'<div class="ribbon"><span>Sale</span></div>' +

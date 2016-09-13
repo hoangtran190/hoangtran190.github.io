@@ -10,6 +10,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="animate.css">
+	<style>
+		h5{
+			font-weight: bold;
+		}
+	</style>
 </head>
 
 <body>
@@ -60,38 +65,41 @@
 	</div>
 </nav>
 
-<div class="container" style="margin-top: 80px;">
-<ol class="breadcrumb">
-  <li><a href="index.html">Trang chủ</a></li>
 
-  <li class="active">Tạo tài khoản</li>
-</ol>
 
-<div class="container">
+<div class="container" style="margin-top:50px;">
 	<div class="row">
-		<div class="col-sm-4 col-xs-12" >
-			<h3>Lợi ích</h3>
+		<div class="col-sm-4 col-xs-4" >
+			<h3 style="text-align:center">Lợi ích</h3>
 			<div style="width:100%; border-top:1px solid red; padding-top: 10px;">
 				Bằng cách tạo tài khoản bạn sẽ có thể: <br>
 				- Mua sắm nhanh hơn <br>
 				- Cập nhật tình trạng đơn hàng <br>
 				- Theo dõi những đơn hàng đã đặt
 			</div>
+			
+			
+		</div>
+		<div class="col-sm-8 col-sm-8">
 			<div class="registerForm">
 				<form action="#" id="formRegister" method="get" style="padding: 6px 6px;">
-					<h3>Tạo tài khoản</h3>
+					<h3 style="text-align: center">Tạo tài khoản</h3>
 					<div style="width:100%; border-top:1px solid red; padding-top: 10px;">
+					<h5>Tài khoản</h5>
 					<input style="margin-bottom: 8px; width:100% " type="text" id="name" placeholder="Tài khoản" name="name" class="fullSize"> <span class="error"></span><br>
+					<h5>Email</h5>
 					<input style="margin-bottom: 8px; width:100% " type="text" id="email" placeholder="E-mail" class="fullSize" name="email"> <span class="error"></span> <br>
+					<h5>Mật khẩu</h5>
 					<input style="margin-bottom: 8px; width:100% " type="password" id="password" placeholder="Mật khẩu" class="fullSize" name="password"> <span class="error"></span><br>
-					<input style="margin-bottom: 8px; width:100% " type="password" id="confirm" placeholder="Nhập lại mật khẩu" class="fullSize" name="confirm"> <span class="error"></span><br><br>
-					<label for="dob">Ngày sinh:</label>
-					<input type="text" id="dob" class="fullSize" name="dob" placeholder="MM/DD/YYYY" style="margin-bottom:8px;"> <span class="error"></span><br>
-					<laber for="gender"> Giới tính:</laber>
+					<h5>Nhập lại mật khẩu</h5>
+					<input style="margin-bottom: 8px; width:100% " type="password" id="confirm" placeholder="Nhập lại mật khẩu" class="fullSize" name="confirm"> <span class="error"></span><br>
+					
+					<laber for="gender"> <h5>Giới tính</h5></laber>
 					<select name="gender" id="gender">
 						<option value="male">Nam</option>
 						<option value="female">Nữ</option>
 					</select><br>
+					<h5>Số điện thoại</h5>
 					<input style="margin-top:8px; width: 100%; " type="text" id="phone" placeholder="Số điện thoại" class="fullSize" name="phone"> <span class="error"></span> <br>
 					<br>
 					<input type="submit" value="Đăng kí" id="submit" class="fullSize btn btn-primary" name="submit" >
@@ -100,26 +108,8 @@
 			</div>
 		</div>
 
-		<div class="col-sm-4 col-xs-12">
-			<h3>Đăng nhập</h3>
-			<div style="width:100%; border-top:1px solid red">
-			<input style="width:100%;margin-top:10px; margin-bottom:20px; " type="text" id="name" placeholder="Tên tài khoản" name="name" class="fullSize"> <span class="error"></span><br>
-			<input style="margin-bottom: 8px; width:100% " type="password" id="password" placeholder="Mật khẩu" class="fullSize" name="password"> <span class="error"></span><br>
-
-			<input type="submit" value="Đăng nhập" id="submit" class="fullSize btn btn-primary" name="submit" style="margin-top: 20px;"> <br><br>
-			<a href="#" style="color:red"> Quên mật khẩu?</a>
-			</div>
-		</div>
-		<div class="col-sm-4 col-xs-12" style=" background-color: #e6e6e6;">
-			<h3>Tài khoản</h3>
-			<div style="border-top: 1px solid red; width: 100%; padding: 0 5px 30px 10px;">
-			<div class="taikhoan"><a href="#"> Tài khoản của tôi</a> </div>
-			<div class="taikhoan"><a href="#"> Theo dõi ship</a> </div>
-			<div class="taikhoan"><a href="#"> Lịch sử đơn hàng</a> </div>
-			<div class="taikhoan"><a href="#"> Điểm thưởng</a> </div>
-			<div class="taikhoan"><a href="#"> Thư thông báo</a> </div>
-			</div>
-		</div>
+		
+		
 
 	</div>
 </div>

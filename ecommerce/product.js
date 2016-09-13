@@ -24,7 +24,7 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="giohang.html"><button class="btn  btn-danger main" role="button">Thêm vào giỏ</button></a>' +
+					'<a href="giohang.html"><button class="btn  btn-success main" role="button">Thêm vào giỏ</button></a>' +
 				'</div>' +
 			'</div>' +
 		'</div>'
@@ -54,7 +54,7 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="giohang.html"><button class="btn  btn-danger main" role="button">Thêm vào giỏ</button></a>' +
+					'<a href="giohang.html"><button class="btn  btn-success main" role="button">Thêm vào giỏ</button></a>' +
 				'</div>' +
 			'</div>' +
 		'</div>'
@@ -82,7 +82,7 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="giohang.html"><button class="btn  btn-danger main" role="button">Thêm vào giỏ</button></a>' +
+					'<a href="giohang.html"><button class="btn  btn-success main" role="button">Thêm vào giỏ</button></a>' +
 				'</div>' +
 			'</div>' +
 		'</div>'
@@ -108,7 +108,7 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="giohang.html"><button class="btn  btn-danger main" role="button">Thêm vào giỏ</button></a>' +
+					'<a href="giohang.html"><button class="btn  btn-success main" role="button">Thêm vào giỏ</button></a>' +
 				'</div></div>' +
 			'</div>' +
 		'</div>'
@@ -133,7 +133,7 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="giohang.html"><button class="btn  btn-danger main" role="button">Thêm vào giỏ</button></a>' +
+					'<a href="giohang.html"><button class="btn  btn-success main" role="button">Thêm vào giỏ</button></a>' +
 				'</div></div>' +
 			'</div>' +
 		'</div>'
@@ -158,7 +158,7 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="giohang.html"><button class="btn  btn-danger main" role="button">Thêm vào giỏ</button></a>' +
+					'<a href="giohang.html"><button class="btn  btn-success main" role="button">Thêm vào giỏ</button></a>' +
 				'</div></div>' +
 			'</div>' +
 		'</div>'
@@ -187,7 +187,7 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="giohang.html"><button class="btn  btn-danger main" role="button">Thêm vào giỏ</button></a>' +
+					'<a href="giohang.html"><button class="btn  btn-success main" role="button">Thêm vào giỏ</button></a>' +
 				'</div></div>' +
 			'</div>' +
 		'</div>'
@@ -214,7 +214,7 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="giohang.html"><button class="btn  btn-danger main" role="button">Thêm vào giỏ</button></a>' +
+					'<a href="giohang.html"><button class="btn  btn-success main" role="button">Thêm vào giỏ</button></a>' +
 				'</div></div>' +
 			'</div>' +
 		'</div>'
@@ -239,7 +239,7 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="giohang.html"><button class="btn  btn-danger main" role="button">Thêm vào giỏ</button></a>' +
+					'<a href="giohang.html"><button class="btn  btn-success main" role="button">Thêm vào giỏ</button></a>' +
 				'</div></div>' +
 			'</div>' +
 		'</div>'
@@ -264,7 +264,7 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="giohang.html"><button class="btn  btn-danger main" role="button">Thêm vào giỏ</button></a>' +
+					'<a href="giohang.html"><button class="btn  btn-success main" role="button">Thêm vào giỏ</button></a>' +
 				'</div></div>' +
 			'</div>' +
 		'</div>'
@@ -289,7 +289,7 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="giohang.html"><button class="btn  btn-danger main" role="button">Thêm vào giỏ</button></a>' +
+					'<a href="giohang.html"><button class="btn  btn-success main" role="button">Thêm vào giỏ</button></a>' +
 				'</div></div>' +
 			'</div>' +
 		'</div>'
@@ -314,7 +314,7 @@ var sanpham = [
 					'<span class="glyphicon glyphicon-star"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
 					'<span class="glyphicon glyphicon-star-empty"></span>'+
-					'<a href="giohang.html"><button class="btn  btn-danger main" role="button">Thêm vào giỏ</button></a>' +
+					'<a href="giohang.html"><button class="btn  btn-success main" role="button">Thêm vào giỏ</button></a>' +
 				'</div></div>' +
 			'</div>' +
 		'</div>'

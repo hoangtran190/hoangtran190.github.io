@@ -342,7 +342,7 @@ function showkm() {
 		}
 	};
 	if(allkm !== ''){
-		allkm = '<div style="border-bottom: red solid 1px; margin-bottom:6px;"><h4>Khuyến mãi</h4></div>' + allkm;
+		allkm = '<div style="border-bottom: red solid 1px; margin-bottom:6px; "><h4 style="text-align:center; color:red; font-size:30px;">Khuyến mãi</h4></div>' + allkm;
 	}
 	km.html(allkm);
 }
@@ -356,7 +356,7 @@ function showao() {
 		}
 	};
 	if(allao !== ''){
-		allao = '<div style="border-bottom: red solid 1px;margin-bottom:6px;"><h4>Áo Phượt</h4></div>' + allao;
+		allao = '<div style="border-bottom: red solid 1px;margin-bottom:6px; "><h4 style="text-align:center; color:red; font-size:30px;">Áo Phượt</h4></div>' + allao;
 	};
 	aophuot.html(allao);
 }
@@ -369,7 +369,7 @@ function showquan() {
 		}
 	};
 	if(allquan !== ''){
-		allquan = '<div style="border-bottom: red solid 1px;margin-bottom:6px;"><h4>Quần Phượt</h4></div>' + allquan;
+		allquan = '<div style="border-bottom: red solid 1px;margin-bottom:6px; "><h4 style="text-align:center; color:red; font-size:30px;">Quần Phượt</h4></div>' + allquan;
 	};
 	quanphuot.html(allquan);
 }

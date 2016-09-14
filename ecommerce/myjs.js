@@ -77,4 +77,4 @@ $('#formRegister').on('submit',function () {
       return isValid;
     });
 
-}
+
